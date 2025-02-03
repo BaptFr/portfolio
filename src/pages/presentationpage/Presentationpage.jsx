@@ -29,20 +29,23 @@ function PresentationPage () {
                     <div className="arrow1 arrowSliding delay3"></div>
                 </div>
             </section>
+             {/* SECTION ref for scroll intro */}
+             <div className='section-top-ref' ref={topSectionRef}  >
+             </div>
             {/* SECTION STACK  section (code more robust) */}
-            <section ref={topSectionRef} className='section'>
-                <h2 className='gradient-title-purple'> STACK TECHNIQUE</h2>
+            <section className='section'>
+                <h1 className='gradient-title-purple'> STACK TECHNIQUE</h1>
                 <StackSection />
             </section>
             {/* COMPETENCES section */}
             <section className='section'>
-            <h2 className='gradient-title-blue-big'>METHODES <br /> & <br />COMPETENCES</h2>
+            <h1 className='gradient-title-blue-big'>METHODES <br /> & <br />COMPETENCES</h1>
                 <SkillsSection />
             </section >
 
             {/* SOFTSKILLS section*/}
             <section className='section'>
-            <h2 className='gradient-title-orange'>SOFT SKILLS</h2>
+            <h1 className='gradient-title-orange'>SOFT SKILLS</h1>
             <div className={`${styles.softSkillsContainer} p-30`}>
                     <ul className='d-flex flex-column all-center wrap gap-25'>
                         <div className={`${styles.softSkillsGroupContainers} d-flex flex-row gap-50 `}>
@@ -57,7 +60,7 @@ function PresentationPage () {
                     </ul>
                 </div>
             </section>
-            <h2 className='gradient-title-orange-big mb-5'>FORMATION <br /> & <br />EXPERIENCE PROFESSIONNELLE</h2>
+            <h1 className='gradient-title-orange-big mb-5'>FORMATION <br /> & <br />EXPERIENCE PROFESSIONNELLE</h1>
             <section className={`${styles.formationSection} d-flex flex-column all-center gap-100`}>
                 <div className={`${styles.formationLogosLegend} d-flex flex-row `}>
                     <img className='orange-model' src={EducationLogo} alt='education-logo'/>

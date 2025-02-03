@@ -65,7 +65,7 @@
   .cardTechsBanner {
     position: relative;
     width: 78%;
-    height: 30%;
+    height: 35%;
     border-top: none;
     border-radius:0px 0px 10px 10px;
     border-width: 5px 10px 15px 20px;
@@ -73,7 +73,7 @@
     background-color: #100529b9;
     box-shadow: var(--box-shadow-purple);
     @include mixin.lg-lt {
-      height: 35%;
+
       width: 85%;
     }
     @include mixin.md-lt {
@@ -93,8 +93,8 @@
     }
     img{
       padding: 5px;
-      width: 60px;
-      height:60px;
+      width: 50px;
+      height: 50px;
       background-color: #0b0b22;
       border-radius: 10px;
     }

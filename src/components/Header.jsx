@@ -9,12 +9,13 @@ function Header () {
     useEffect(() => {
         setTimeout(() => {
           setShowImage(true);
-        }, 10000); 
+        }, 10000);
       }, []);
-    
+
     return (
         <header className={` ${styles.headerContainer} relative d-flex all-center p-15 `}>
-            <div className='overlay'></div>
+            <div className='overlay'>
+            </div>
             <img className={` ${styles.siteLogo} ${styles.blinkAnimation} z-index1`} src={ LogoSite } alt='logo'></img>
             <nav className='z-index2'>
                 <ul className='d-flex all-center gap-15 mr-10'>

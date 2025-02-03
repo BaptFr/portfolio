@@ -1,16 +1,15 @@
 @use '../../assets/styles/mixins' as mixin;
 
 .projectsIntroContainer {
-    padding: 0px 100px;
+    margin: 75px 50px 100px 50px;
     h1 {
-        margin:  0px 0px 0px 30px;
+        margin:  0;
     }
     p{
         font-size: 1.3em;
     }
     @include mixin.md-lt{
-    padding: 0px 50px;
-        h2 {
+        h1 {
             margin: 0;
         }
         p{
@@ -18,14 +17,8 @@
         }
     }
     @include mixin.sm-lt {
-        padding: 0px 20px;
         p{
-            font-size: 1em;
-        }
-    }
-    @include mixin.xs{
-        p{
-            font-size: 0.9em;
+            font-size: 1.2em;
         }
     }
 }

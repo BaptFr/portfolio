@@ -3,6 +3,11 @@
 .introSection{
   @include mixin.md-lt{
     flex-direction: column;
+    h1{
+      @include mixin.xs {
+        font-size: 2em;
+      }
+    }
     p {
       font-size: 1.2em;
     }

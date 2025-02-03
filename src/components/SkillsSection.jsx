@@ -39,10 +39,14 @@ function SkillsSection () {
         <div className={`${styles.skillsSection} d-flex flex-row all-center wrap gap-50  `}>
             {cards.map((card) => (
                 <div key={card.id} className='cardContainer blue-model box-shadow'>
-                    <h3>{card.title}</h3>
-                    <img src={card.image} alt={`sketch-${card.title}`}></img>
-                    <p className={styles.skillsTextContainer}> {card.text}</p>
-                </div >
+                    <div  className='card-title-container'>
+                      <h3>{card.title}</h3>
+                      <img src={card.image} alt={`sketch-${card.title}`}></img>
+                   </div>
+                   <div className='card-text-container'>
+                     <p className={styles.skillsTextContainer}> {card.text}</p>
+                   </div >
+                </div>
         ))}
         </div>
     ) : ( <p> Pas de données disponibles / No datas available</p>)

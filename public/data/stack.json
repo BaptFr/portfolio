@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name":"React",
-            "image":"pm run deassets/logos/react-logo.webp"
+            "image":"assets/logos/react-logo.webp"
         },
         {
             "id": "2",

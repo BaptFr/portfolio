@@ -13,14 +13,13 @@ function Projectspage () {
     return (
         <div className= {`${styles.projectsContainer} d-flex flex-fill flex-column`}>
             <ScrollToTopButton  targetRef={topSectionRef}/>
-            <section className={`${styles.projectsIntroContainer} d-flex flex-column justify-content-sb align-items-center m-100 mb-20 text-center`}>
+            <section className={`${styles.projectsIntroContainer} d-flex flex-column justify-content-sb align-items-center text-center `}>
                 <h1 className='relative gradient-title-purple-center'> MES PROJETS</h1>
                 <article className='relative'>
                     <p>Vous trouverez ici une sélection de mes réalisations ou projets en cours.<br />
                     Découvrez différents projets de développement Front-End, Back-End, Full-Stack mais aussi de Debug & Optimisation SEO.<br />
                     <br />
-                    Ce portfolio lui-même est développé avec React pour une interface utilisateur dynamique et un code modulaire.<br />
-                    Stylisé en SCSS pour une gestion des styles efficace et un design responsive pour adapter l&apos;interface et l&apos; expérience utilisateur à tout les supports.
+                    Ce portfolio lui-même est développé avec React et stylisé en SCSS pour une gestion des styles efficace et un design responsive.
                     </p>
                 </article>
                 <div className='arrowsContainer' onClick={scrollToSection}>
@@ -29,7 +28,9 @@ function Projectspage () {
                     <div className="arrow2 arrowSliding delay3"></div>
                 </div>
             </section>
-            <section ref={topSectionRef} className='mt-100 pt-75'>
+             {/* SECTION ref for scroll intro */}
+             <div className='section-top-ref' ref={topSectionRef}  ></div>
+            <section>
                 <Projects />
             </section>
         </div>

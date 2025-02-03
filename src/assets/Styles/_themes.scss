@@ -7,6 +7,10 @@
   color: #ffffff;
 }
 
+.section-top-ref {
+  margin-bottom: 120px;
+}
+
 .article {
   width: 90%;
   padding: 35px;
@@ -26,7 +30,7 @@
 
 //ANIMATED ARROWS for Intro Sections
 .arrowsContainer {
-  margin: 75px 0px;
+  margin: 0px 0px 75px 0px;
   &:hover{
     cursor: pointer;
   }
@@ -226,7 +230,7 @@
   padding: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 20px;
   transition: all 0.2s ease;
   &:hover{
     transform: scale(1.005);
@@ -234,6 +238,10 @@
   }
   @include mixin.lg{
     width: 30%;
+  }
+  @include mixin.md{
+    height: 600px;
+
   }
   @include mixin.sm{
     width: 45%;
@@ -243,14 +251,27 @@
     width: 80%;
     height: auto;
   }
+  
+ 
+}
+.card-title-container{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15%;
   h3 {
     height: 20%;
     font-size: 1.4em;
     font-weight: 4500;
     text-shadow: var(--text-shadow);
+    @include mixin.md{
+      font-size: 1.2em;
+    }
     @include mixin.sm{
       height: 15%;
-      font-size: 1.3em;
+      font-size: 1.1em;
     }
     @include mixin.xs{
       height: 10%;
@@ -259,13 +280,27 @@
   img {
     width: 150px;
     height: auto;
+    @include mixin.md{
+      width: 125px;
+    }
+    @include mixin.xs{
+     
+    }
   }
+}
+.card-text-container{
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
   p{
-    width: 85%;
+    width: 90%;
     height: auto;
     text-align: center;
     text-shadow: none;
-    font-size: 1em;
+    font-size: 0.95em;
     @include mixin.lg{
       width: 90%;
       font-size: 0.95em;
@@ -279,7 +314,6 @@
     }
   }
 }
-
 .big-card-container {
   display: flex;
   flex-direction: column;
@@ -359,12 +393,21 @@
 }
 
 //IMAGE & BLUR
-
 .background-image-blur{
-  width:70%;
+  width:100%;
   height: auto;
   top: -250px;
-  left: 25vh;
+  @include mixin.lg{
+    top: -150px;
+  }
+  @include mixin.md-lt{
+    top: -100px;
+  }
+  @include mixin.sm{
+  }
+  @include mixin.xs{
+    top: -50px;
+  }
 }
 
 .icons{

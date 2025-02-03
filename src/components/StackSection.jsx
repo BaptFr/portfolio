@@ -47,7 +47,7 @@ const TechSection = () => {
         <div className={`${styles.stackSectionContainer} d-flex flex-row all-center wrap gap-50`}>
             {sections.map(({ title, key }) => (
                 <div key={key} className={`${styles.stackCard} purple-model d-flex flex-column all-center relative z-index1 br-20`}>
-                    <div className={`${styles.stackTitle} d-flex all-center m-0 p-20`}>
+                    <div className={`${styles.stackTitle} d-flex all-center m-0 `}>
                         <h3>{title}</h3>
                     </div>
                     <div className= {`${styles.techContainer} mt-30`}>

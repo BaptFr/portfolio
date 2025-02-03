@@ -24,6 +24,9 @@
         @include mixin.sm-lt{
             width: 30%;
             height: auto;
+        }@include mixin.xs{
+            width: 25%;
+            height: auto;
         }
     }
 }
