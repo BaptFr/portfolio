@@ -53,7 +53,7 @@ const TechSection = () => {
                     <div className= {`${styles.techContainer} mt-30`}>
                         <div className='techBanner '>
                             <LogoBannerDyn
-                                jsonFile="./src/data/stack.json"
+                                jsonFile="data/stack.json"
                                 sectionKey={key}
                             />
                         </div>

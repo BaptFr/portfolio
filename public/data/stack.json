@@ -3,149 +3,149 @@
         {
             "id": "1",
             "name":"React",
-            "image":"./src/assets/logos/react-logo.webp"
+            "image":"pm run deassets/logos/react-logo.webp"
         },
         {
             "id": "2",
             "name":"JavaScript",
-            "image":"./src/assets/logos/js-logo.webp"
+            "image":"assets/logos/js-logo.webp"
         },
         {
             "id": "3",
             "name":"Tailwind",
-            "image":"./src/assets/logos/tailwind-logo.webp"
+            "image":"assets/logos/tailwind-logo.webp"
         },
         {
             "id": "4",
             "name":"SCSS / Sass",
-            "image":"./src/assets/logos/sass-logo.webp"
+            "image":"assets/logos/sass-logo.webp"
         },
         {
             "id": "5",
             "name":"CSS",
-            "image":"./src/assets/logos/css-logo.webp"
+            "image":"assets/logos/css-logo.webp"
         },
         {
             "id": "6",
             "name":"HTML",
-            "image":"./src/assets/logos/html-logo.webp"
+            "image":"assets/logos/html-logo.webp"
         }
     ],
     "backend": [
         {
             "id": "7",
             "name":"NodeJS",
-            "image":"./src/assets/logos/node-logo.webp"
+            "image":"assets/logos/node-logo.webp"
         },
         {
             "id": "8",
             "name":"ExpressJS",
-            "image":"./src/assets/logos/express-logo.webp"
+            "image":"assets/logos/express-logo.webp"
         },
         {
             "id": "9",
             "name":"API REST",
-            "image":"./src/assets/logos/api-logo.webp"
+            "image":"assets/logos/api-logo.webp"
         },
         {
             "id": "10",
             "name":"MongoDB",
-            "image":"./src/assets/logos/mongo-logo.webp"
+            "image":"assets/logos/mongo-logo.webp"
         }
     ],
     "devtools": [
         {
             "id": "11",
             "name":"Vite",
-            "image":"./src/assets/logos/vite-logo.webp"
+            "image":"assets/logos/vite-logo.webp"
         },
         {
             "id": "12",
             "name":"ESLint",
-            "image":"./src/assets/logos/lint-logo.webp"
+            "image":"assets/logos/lint-logo.webp"
         },
         {
             "id": "13",
             "name":"Prettier",
-            "image":"./src/assets/logos/prettier-logo.webp"
+            "image":"assets/logos/prettier-logo.webp"
         },
         {
             "id": "14",
             "name":"Postman",
-            "image":"./src/assets/logos/postman-logo.webp"
+            "image":"assets/logos/postman-logo.webp"
         },
         {    "id": "15",
             "name":"Mongoose",
-            "image":"./src/assets/logos/mongoose-logo.webp"
+            "image":"assets/logos/mongoose-logo.webp"
         },
         {
             "id": "16",
             "name":"Git",
-            "image":"./src/assets/logos/git-logo.webp"
+            "image":"assets/logos/git-logo.webp"
         },
         {
             "id": "17",
             "name":"GitHub",
-            "image":"./src/assets/logos/github-logo.webp"
+            "image":"assets/logos/github-logo.webp"
         },
         {
             "id": "18",
             "name":"Vercel",
-            "image":"./src/assets/logos/vercel-logo.webp"
+            "image":"assets/logos/vercel-logo.webp"
         }
     ],
     "seotools": [
         {
             "id": "19",
             "name":"Chrome DevTools",
-            "image":"./src/assets/logos/devtools-logo.webp"
+            "image":"assets/logos/devtools-logo.webp"
         },
         {
             "id": "20",
             "name":"Google Lightouse",
-            "image":"./src/assets/logos/lighthouse-logo.webp"
+            "image":"assets/logos/lighthouse-logo.webp"
         },
         {
             "id": "21",
             "name":"Wave ",
-            "image":"./src/assets/logos/wave-logo.webp"
+            "image":"assets/logos/wave-logo.webp"
         },
         {
             "id": "22",
             "name":"Google Search Console ",
-            "image":"./src/assets/logos/googlese-logo.webp"
+            "image":"assets/logos/googlese-logo.webp"
         },
         {
             "id": "23",
             "name":"Schema.org",
-            "image":"./src/assets/logos/schema-logo.webp"
+            "image":"assets/logos/schema-logo.webp"
         }
     ],
     "collaborationtools": [
         {
             "id": "24",
             "name":"Figma",
-            "image":"./src/assets/logos/figma-logo.webp"
+            "image":"assets/logos/figma-logo.webp"
         },
         {
             "id": "25",
             "name":"Notion",
-            "image":"./src/assets/logos/notion-logo.webp"
+            "image":"assets/logos/notion-logo.webp"
         },
         {
             "id": "26",
             "name":"Trello",
-            "image":"./src/assets/logos/trello-logo.webp"
+            "image":"assets/logos/trello-logo.webp"
         },
         {
             "id": "27",
             "name":"Slacks",
-            "image":"./src/assets/logos/slacks-logo.webp"
+            "image":"assets/logos/slacks-logo.webp"
         },
         {
             "id": "28",
             "name":"Feedly",
-            "image":"./src/assets/logos/feedly-logo.webp"
+            "image":"assets/logos/feedly-logo.webp"
         }
     ]
 }

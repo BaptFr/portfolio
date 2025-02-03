@@ -2,8 +2,8 @@ import { useRef } from 'react';
 import styles from './Presentationpage.module.scss';
 import StackSection from '../../components/StackSection';
 import SkillsSection from '../../components/SkillsSection';
-import EducationLogo from '/public/assets/logos/education-logo.webp';
-import WorkLogo from '/public/assets/logos/work-logo.webp';
+import EducationLogo from '/assets/logos/education-logo.webp';
+import WorkLogo from '/assets/logos/work-logo.webp';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 
 

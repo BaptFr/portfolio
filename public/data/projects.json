@@ -2,26 +2,26 @@
     {
         "id":"1",
         "title": "Cook Chef (EN COURS)  ",
-        "image": "./src/assets/images/projects/cookchef-site.webp",
+        "image": "assets/images/projects/cookchef-site.webp",
         "tech": [
             {
-                "url": "src/assets/logos/react-logo.webp",
+                "url": "assets/logos/react-logo.webp",
                 "techname": "React"
             },
             {
-                "url": "src/assets/logos/vite-logo.webp",
+                "url": "assets/logos/vite-logo.webp",
                 "techname": "Vite"
             },
             {
-                "url": "src/assets/logos/sass-logo.webp",
+                "url": "assets/logos/sass-logo.webp",
                 "techname": "Sass / SCSS"
             },
             {
-                "url": "src/assets/logos/api-logo.webp",
+                "url": "assets/logos/api-logo.webp",
                 "techname": "API REST"
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose": "Site de partage de recettes en ligne.",
         "techdescription": "avec fonctionnalités avancées de React et de style en SCSS (wichlist, panel Admin, authentification...) La 2nd partie de se projet après la mise ne prodtion et son déploiement sera une migration vers TypeScript).",
         "links": [
@@ -34,30 +34,30 @@
     {
         "id":"2",
         "title": "Mon vieu grimoire",
-        "image": "./src/assets/images/projects/mvg-site.webp",
+        "image": "assets/images/projects/mvg-site.webp",
         "tech": [
             {
-                "url": "src/assets/logos/node-logo.webp",
+                "url": "assets/logos/node-logo.webp",
                 "techname": "Node"
             },
             {
-                "url": "src/assets/logos/express-logo.webp",
+                "url": "assets/logos/express-logo.webp",
                 "techname": "Express"
             },
             {
-                "url": "src/assets/logos/api-logo.webp",
+                "url": "assets/logos/api-logo.webp",
                 "techname": "API REST"
             },
             {
-                "url": "src/assets/logos/mongoose-logo.webp",
+                "url": "assets/logos/mongoose-logo.webp",
                 "techname": "Mongoose"
             },
             {
-                "url": "src/assets/logos/mongo-logo.webp",
+                "url": "assets/logos/mongo-logo.webp",
                 "techname": "Mongo DB"
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Site web de référencement de livres d'une chaine de librairies permettant aux utilisateurs d'ajouter des livres et de les évaluer. ",
         "techdescription": "Pour le back-end de ce projet en architecture MVC, j'ai utilisé Express pour créer un serveur connecté à une base de données MongoDB, avec une API RESTful et des modèles de données Mongoose. J'ai implémenté des opérations CRUD, un système d'authentification sécurisé, et optimisé les images des utilisateurs selon les pratiques du Green Code. Le projet inclut une fonction de login et création de compte pour ajouter ou supprimer des livres.",
         "links": [
@@ -70,26 +70,26 @@
     {
         "id":"3",
         "title": "KASA",
-        "image": "./src/assets/images/projects/kasa-site-l.webp",
+        "image": "assets/images/projects/kasa-site-l.webp",
         "tech": [
             {
-                "url": "src/assets/logos/react-logo.webp",
+                "url": "assets/logos/react-logo.webp",
                 "techname": "React"
             },
             {
-                "url": "src/assets/logos/sass-logo.webp",
+                "url": "assets/logos/sass-logo.webp",
                 "techname": "Sass / SCSS"
             },
             {
-                "url": "src/assets/logos/html-logo.webp",
+                "url": "assets/logos/html-logo.webp",
                 "techname": "HTML 5"
             },
             {
-                "url": "src/assets/logos/figma-logo.webp",
+                "url": "assets/logos/figma-logo.webp",
                 "techname": "Figma"
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Site de locations d'appartements entre particuliers permettant l'accès à la description, aux photos et particularités de chaque logement. ",
         "techdescription": "J’ai développé l'ensemble de l'application pour le front-end, avec React pour obtenir une Single Page Application Initialisée avec CRA, respectant les maquettes Figma fournies, garantissant un rendu fidèle et responsive. Tout le style a été développé en Sass mais aussi des animations CSS pour améliorer l'expérience utilisateur.",
         "links": [
@@ -106,26 +106,26 @@
     {
         "id":"4",
         "title": "Portfolio Sophie Bluel",
-        "image": "src/assets/images/projects/sophiebluel-site.webp",
+        "image": "assets/images/projects/sophiebluel-site.webp",
         "tech": [
             {
-                "url": "src/assets/logos/js-logo.webp",
+                "url": "assets/logos/js-logo.webp",
                 "techname": "JavaScript ES6"
             },
             {
-                "url": "src/assets/logos/css-logo.webp",
+                "url": "assets/logos/css-logo.webp",
                 "techname": "CSS 3"
             },
             {
-                "url": "src/assets/logos/api-logo.webp",
+                "url": "assets/logos/api-logo.webp",
                 "techname": "API REST"
             },
             {
-                "url": "src/assets/logos/figma-logo.webp",
+                "url": "assets/logos/figma-logo.webp",
                 "techname": "Figma"
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose":" Porfolio d'architecte avec une gallerie de ses photos une solutio nde contact direct. ",
         "techdescription": "Développement Front-End en JavaScript et CSS selon la maquette Figma, avec récupération dynamique des images via API REST. J'ai aussi implémenter un filtre par catégorie, une page de connexion pour que l'admnistrateur puisse gérer ses projets. J'ai suivi une approche Agile avec un tableau personnel Kanban.",
         "links": [
@@ -142,26 +142,26 @@
     {
         "id":"5",
         "title": "Photographe Nina Carducci",
-        "image": "src/assets/images/projects/nina-site.webp",
+        "image": "assets/images/projects/nina-site.webp",
         "tech": [
             {
-                "url": "src/assets/logos/devtools-logo.webp",
+                "url": "assets/logos/devtools-logo.webp",
                 "techname": "Chrome DevT."
             },
             {
-                "url": "src/assets/logos/lighthouse-logo.webp",
+                "url": "assets/logos/lighthouse-logo.webp",
                 "techname": "Google LH. "
             },
             {
-                "url": "src/assets/logos/googlese-logo.webp",
+                "url": "assets/logos/googlese-logo.webp",
                 "techname": "Google S.E."
             },
             {
-                "url": "src/assets/logos/wave-logo.webp",
+                "url": "assets/logos/wave-logo.webp",
                 "techname": "Wave"
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Analyse puis optimisation d'un site d'une photographe suivi d'une documentation.",
         "techdescription": "Une fois les bugs signalés, j'ai aussi analysé les 4 items d'optimisation : Performance, Accessibilité, Bonnes Pratiques et SEO. Puis à l'aide des divers outils, modifié le code pour le debbugage, amélioré chaque items au dessus de 90% version mobile ou desktop mais aussi , en plus de l'amélioration du SEO, permis un référencement local. Tout au long de ces divers actions, j'ai rédigé le Cahier de Recettes qui permettra aussi un suivi sur le longt terme quelque oit les interventants.",
         "links": [
@@ -178,18 +178,18 @@
     {
         "id":"6",
         "title": "Repository GitHub",
-        "image": "src/assets/images/repository-image.webp",
+        "image": "assets/images/repository-image.webp",
         "tech": [
             {
-                "url": "src/assets/logos/git-logo.webp",
+                "url": "assets/logos/git-logo.webp",
                 "techname": "Git"
             },
             {
-                "url": "src/assets/logos/github-logo.webp",
+                "url": "assets/logos/github-logo.webp",
                 "techname": "GitHub "
             }
         ],
-        "imagemodal": "./src/assets/images/intro-image.webp",
+        "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Retrouvez une partie du code de mes projets via mon profil GitHub",
         "techdescription": "",
         "links": [
