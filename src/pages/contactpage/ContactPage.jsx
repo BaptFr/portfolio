@@ -1,13 +1,21 @@
+import { useRef } from 'react';
 import styles from './ContactPage.module.scss';
+import ScrollToTopButton from '../../components/ScrollToTopButton.jsx';
 import ContactForm from '../../components/ContactForm.jsx';
 import LinkedinLogo from '/assets/logos/linkedin-logo.webp';
 import GithubLogo from '/assets/logos/github-logo-blue.webp';
 
 function ContactPage () {
+    const topSectionRef = useRef(null);
+         const scrollToSection = () => {
+            topSectionRef.current.scrollIntoView({behavior: 'smooth'});
+        };
     return (
-        <div className='d-flex flex-column all-center gap-50'>
-            <h1 className='relative mt-30 gradient-title-blue-center'> ME CONTACTER </h1>
-
+        <div className={`${styles.PageContainer} d-flex flex-column all-center`}>
+           <ScrollToTopButton  targetRef={topSectionRef}/>
+            <h1 className='relative mt-30 mb-0 gradient-title-blue-center'> ME CONTACTER </h1>
+            {/* SECTION ref for scroll intro */}
+            <div className='section-top-ref ' ref={topSectionRef}  ></div>
             <section className={`${styles.contactPageContainer}  section d-flex flex-column justify-content-sb align-items-center wrap br-10`}>
               <div className= {`${styles.contactContainer}  d-flex flex-row all-center text-center gap-50 p-30 wrap`}>
                 <div className={`${styles.articleContainer} d-flex flex-column p-40 gap-100  `}>

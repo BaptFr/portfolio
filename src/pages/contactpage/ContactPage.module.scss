@@ -1,5 +1,11 @@
 @use '../../assets/styles/mixins' as mixin;
 
+.PageContainer{
+   gap:25px;
+   @include mixin.sm-lt {
+    gap:0;
+   }
+}
 .contactPageContainer {
     width: 80%;
     padding: 0;
@@ -41,10 +47,8 @@
     @include mixin.md-lt {
         padding: 10px;
     }
-
     p{
         font-size: 1.4em;
-
         @include mixin.md-lt {
             font-size: 1.1em;
         }
