@@ -1,0 +1,67 @@
+@use './mixins' as mixin;
+
+.d-flex  {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.all-center {
+    align-items: center;
+    justify-content: center,
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-sb{
+    justify-content: space-between;
+}
+
+.justify-content-sa{
+    justify-content: space-around;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-r{
+    justify-content: right;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+

@@ -1,0 +1,72 @@
+@use '../assets/styles/mixins' as mixin;
+
+.linesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea {
+    height: 150px;
+}
+
+form button {
+    margin: 50px 0px;
+    background-color: var(--grey3);
+}
+
+.contactModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    .contactModalContent {
+        background:#ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        @include mixin.sm-lt {
+
+            width: 50%;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: #0056b3;
+            }
+        }
+        p {
+            font-weight: bold;
+            color: #45a049;
+            @include mixin.sm-lt {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+        }
+    }
+}
+
+
+
+
