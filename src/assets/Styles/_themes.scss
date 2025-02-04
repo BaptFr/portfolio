@@ -9,7 +9,10 @@
 }
 
 .section-top-ref {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  @include mixin.xs {
+    margin-bottom: 100px;
+  }
 }
 
 .article {
