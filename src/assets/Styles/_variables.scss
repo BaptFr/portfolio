@@ -1,0 +1,109 @@
+@use './mixins' as mixin;
+:root {
+    --primary: #030205;
+    --secondary: #0f0e11c7;
+    --third: #0d0d0e75;
+    --variant-secondary: linear-gradient(to top, #0f0e11, #000000);; 
+    --blue1: rgb(85, 164, 255); //border trsnp
+    --blue2: rgb(108, 177, 255);
+    --blue3: rgba(40, 120, 212, 0.253);
+    --blue4: rgb(14, 57, 105);
+    --blue5: #0da0dfd0;
+    --purple1: #793ed8;
+    --blue-transparency-clear: rgba(59, 131, 246, 0.205);
+    --blue-transparency-dark:rgba(76, 133, 255, 0.527);
+    --grey1: #f1f1f1;
+    --grey2: #a7a7a7;//
+    --grey4:   #1313139f;; //ok transparency
+    --grey3: #1a191dc7;
+    --orange1: #ff721b;
+
+    --border-blue: 1px solid #7ab4ff;
+    --border-purple: 1px solid var(--purple1);
+    --box-shadow: 2px 5px 5px #000000;
+    --box-shadow-purple: 2px 3px 18px 8px #381C66;
+    --box-shadow-purple-extend: 2px 3px 25px 10px #381C66;
+    --box-shadow-purple-reduce: 2px 3px 30px 2px #381C66;
+    --box-shadow-orange: 2px 3px 18px 5px  #ff721b;
+    --box-shadow-orange-extend: 2px 3px 15px 8px  #ff721b;
+    --box-shadow-blue: 0px 2px 18px 5px rgba(59, 131, 246, 0.712);
+    --box-shadow-blue-extend: 0px 2px 10px 10px rgba(59, 131, 246, 0.712);
+    --box-shadow-blue-reduce: 0px 2px 10px 2px rgba(59, 131, 246, 0.712);
+    --box-shadow-inset-blue: inset 1px 0px 10px 1px rgba(255, 255, 255, 0.438);
+    --text-shadow: 2px 5px 2px #000000;
+    --text-shadow-outline: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;    --text-shadow-t: 2px 1px 4px #000000;
+    --text-shadow-b: 2px 5px 5px #000000;
+    --text-shadow-blue: 0px 2px 5px 5px rgb(105, 175, 255);
+    --linear-gradient: linear-gradient(to top, rgb(40, 40, 90), rgba(33, 33, 75, 0));
+    --linear-gradient-blue: linear-gradient(to top, rgb(62, 142, 248), rgba(0, 48, 136, 0.452));
+    --background-text-purple-center: linear-gradient(to right, #7c59dba1, #835ee9, #ffffff, #835ee9, #7c59dba1);
+    --background-text-blue: linear-gradient(to top, #579aff52, #4f95ff, #ffffff, #ffffff);
+    --background-text-blue-center: linear-gradient(to right, #1c7ff186, #1c7ff1a6, #ffffff, #1c7ff1a6,#1c7ff186);
+    --background-text-blue-big: linear-gradient(to top, #579aff, #87c5fc, #ffffff, #ffffff); 
+    --background-text-purple: linear-gradient(to top, rgba(91, 50, 202, 0.322), #7c59db, #ffffff, #ffffff); 
+    --background-text-orange: linear-gradient(to top, rgb(255, 172, 76),  #ffe4bb, #ffffff); 
+    --background-text-orange-big: linear-gradient(to top, rgb(255, 172, 76), #ffe4bb, #ffffff, #ffffff); 
+    --opacity8: 0.8;
+}
+
+.background-gradient{
+    background: linear-gradient(90deg, rgba(13, 13, 36, 1) 0%, rgba(27, 27, 78, 1) 49%, rgba(13, 13, 36, 1) 100%);
+    //background: linear-gradient(90deg, rgba(13, 13, 36, 1) 0%, rgba(74, 74, 205, 1) 49%, rgba(13, 13, 36, 1) 100%);
+}
+.background-multi {
+    background-image: linear-gradient(45deg,#ce6423, #eb3850, #5f1b86 );
+}
+
+.box-shadow {
+    box-shadow: 2px 5px 5px #000000;
+}
+
+.text-shadow-outline{
+    text-shadow: var(--text-shadow-outline);
+}
+
+.gradient-title-purple {
+    background:var(--background-text-purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-title-purple-center {
+    background:var(--background-text-purple-center);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.gradient-title-blue {
+    background:var(--background-text-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-title-blue-big {
+    background:var(--background-text-blue-big);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-title-blue-center {
+    background:var(--background-text-blue-center);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+.gradient-title-orange {
+    background:var(--background-text-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-title-orange-big {
+    background:var(--background-text-orange-big);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

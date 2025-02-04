@@ -1,0 +1,54 @@
+@use '../assets/styles/mixins' as mixin;
+
+.banner {
+    position: relative;
+    height: 450px;
+    margin: 0;
+    padding: 0px 10px;
+    overflow: hidden;
+    background-color: transparent;
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    @include mixin.sm-lt{
+        height: 250px;
+    }
+    img{
+        width: 75px;
+        height: 70px;
+        flex-shrink: 0;
+        @include mixin.md{
+            width:40%;
+            height: auto;
+        }
+        @include mixin.sm-lt{
+            width: 30%;
+            height: auto;
+        }@include mixin.xs{
+            width: 25%;
+            height: auto;
+        }
+    }
+}
+
+.slideY {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-wrap: nowrap;
+    animation: slideY 30s linear infinite;
+}
+
+
+
+@keyframes slideY{
+    0% {
+        transform: translateY(0%)
+    }
+    100%{
+      transform: translateY(-69%)
+
+    }
+}
+

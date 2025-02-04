@@ -1,0 +1,75 @@
+@use '../assets/styles/mixins' as mixin;
+
+.stackSectionContainer {
+    color: #ffffff;
+}
+
+.stackCard{
+    width:30%;
+    background-color: var(--grey3);
+    @include mixin.lg-lt {
+        width: 45%;
+    }
+    @include mixin.md-lt {
+        width: 33%;
+    }
+    @include mixin.md-lt {
+        width: 40%;
+    }
+    @include mixin.xs {
+        width: 78%;
+    }
+    &:hover{
+        .stackTitle {
+            border-bottom: 2px solid var(--purple1);
+            background-color: var(--grey4);
+        }
+    }
+    .stackTitle {
+        height: 120px;
+        width: 90%;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 1px solid var(--purple1);
+        text-shadow: var(--text-shadow);
+        @include mixin.lg-lt{
+            padding: 5px;
+        }
+        @include mixin.sm-lt{
+            width: 100%;
+            height: 100px;
+        }
+
+        h3{
+            font-size: 1.3em;
+            line-height: 1.1em;
+            @include mixin.lg-lt{
+            font-size: 1.6em;
+            }
+            @include mixin.md{
+            font-size: 1.2em;
+            }
+            @include mixin.sm{
+                margin: 0;
+                font-size: 1.1em;
+                font-weight: 450;
+            }
+            @include mixin.xs{
+                padding:0;
+                margin: 0;
+                font-size: 1.1em;
+            }
+        }
+    }
+    .techContainer {
+        width: 300px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+        @include mixin.md-lt{
+            width:90%;
+        }
+    }
+
+}

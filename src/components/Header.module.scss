@@ -1,0 +1,104 @@
+@use '../assets/styles/mixins' as mixin;
+
+.headerContainer {
+    background: var(--blue-transparency-clear);
+    border-radius: 0px 0px 30px 30px;
+    border: 1px solid var(--blue1);
+    overflow: hidden;
+    justify-content: space-between;
+    li{
+        flex-direction: row;
+        align-items: center;
+    }
+    i {
+        font-size: 1em;
+    }
+    button {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    @include mixin.md-lt {
+        padding: 15px 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        button{
+            display: none;
+        }
+        i {
+            font-size: 2em;
+        }
+        ul {
+            gap: 50px;
+        }
+    }
+    @include mixin.sm-lt {
+        gap: 10px;
+        i{
+            width: 30%;
+        }
+        ul {
+            gap: 40px;
+        }
+    }
+    @include mixin.xs {
+        ul {
+            gap: 20px;
+        }
+    }
+}
+
+.siteLogo {
+    max-width: 25%;
+    @include mixin.lg{
+      max-width: 30%;
+    }
+    @include mixin.md{
+      max-width: 60%;
+    }
+    @include mixin.sm{
+        max-width: 55%;
+      }
+    @include mixin.xs{
+        max-width: 95%;
+      }
+  }
+
+.blinkAnimation {
+    animation: blinkEffect 4s infinite;
+  }
+  @keyframes blinkEffect {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.activeLink {
+    button{
+   transform: scale(1.15);
+   color: #ffffff;
+   border-bottom: 1px solid #ffffff;
+    }
+    @include mixin.md-lt {
+        i{
+            transform: scale (1.5);
+            color: var(--blue1);
+        }
+    }
+    @include mixin.xs {
+        i{
+            transform: scale(1.05);
+        }
+    }
+
+}
+
+
+
