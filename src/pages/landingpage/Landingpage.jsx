@@ -19,12 +19,11 @@ function LandingPage () {
                 <div className= ' d-flex flex-column all-center'>
                 <h2 className={`${styles.landingSubtitle} text-shadow-outline `}>Retrouvez ici mon parcours, compétences et mes différents projets</h2>
                     <NavLink to='presentation' end className={`${styles.buttonLink} `}>
-                            C&apos; EST PARTI !
+                            PAR ICI <i className='fa-solid fa-circle-chevron-right'></i>
                     </NavLink>
                 </div>
             </div>
         </div>
-    
     )
 }
 
