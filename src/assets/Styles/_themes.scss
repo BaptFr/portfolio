@@ -3,12 +3,13 @@
 .section {
   z-index: 1;
   padding: 22px;
+  margin-bottom: 120px;
   font-family: 'Outfit';
   color: #ffffff;
 }
 
 .section-top-ref {
-  margin-bottom: 120px;
+  margin-bottom: 200px;
 }
 
 .article {
@@ -27,6 +28,7 @@
     width: 100%;
   }
 }
+
 
 //ANIMATED ARROWS for Intro Sections
 .arrowsContainer {
@@ -104,7 +106,6 @@
     opacity: 1;
   }
 }
-
 
 
 //BUTTONS & LINKS
@@ -340,8 +341,9 @@
   box-shadow: var(--box-shadow-blue);
   border: 1px solid white; //var(--blue2);
   border-radius: 15px;
+  background-color:  var(--grey3);
   &:hover{
-    background-color:  #1a191dc7;
+    background-color:  var(--grey4);
   }
 }
 

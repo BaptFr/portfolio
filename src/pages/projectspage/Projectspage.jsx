@@ -16,7 +16,7 @@ function Projectspage () {
             <section className={`${styles.projectsIntroContainer} d-flex flex-column justify-content-sb align-items-center text-center `}>
                 <h1 className='relative gradient-title-purple-center'> MES PROJETS</h1>
                 <article className='relative'>
-                    <p>Vous trouverez ici une sélection de mes réalisations ou projets en cours.<br />
+                    <p className='text-shadow-outline'>Vous trouverez ici une sélection de mes réalisations ou projets en cours.<br />
                     Découvrez différents projets de développement Front-End, Back-End, Full-Stack mais aussi de Debug & Optimisation SEO.<br />
                     <br />
                     Ce portfolio lui-même est développé avec React et stylisé en SCSS pour une gestion des styles efficace et un design responsive.

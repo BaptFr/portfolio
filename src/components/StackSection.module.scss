@@ -6,6 +6,7 @@
 
 .stackCard{
     width:30%;
+    background-color: var(--grey3);
     @include mixin.lg-lt {
         width: 45%;
     }
@@ -21,6 +22,7 @@
     &:hover{
         .stackTitle {
             border-bottom: 2px solid var(--purple1);
+            background-color: var(--grey4);
         }
     }
     .stackTitle {

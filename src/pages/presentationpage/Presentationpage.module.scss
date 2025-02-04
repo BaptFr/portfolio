@@ -97,6 +97,18 @@
 
 
 //FORMATIONS & EXP SECTION
+.formationTitle{
+  @include mixin.md{
+    font-size: 4.3em;
+  }
+  @include mixin.sm{
+      font-size: 3.1em;
+  }
+  @include mixin.xs{
+      font-size: 1.9em;
+  }
+}
+
 .formationSection {
   background-color: transparent;
   min-height: 100vh;

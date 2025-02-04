@@ -4,7 +4,7 @@
         "name":"seo",
         "title":"SEO & OPTIMISATION DES PERFORMANCES",
         "image":"assets/images/cards/seo-logo.webp",
-        "text":" Maîtrise d'outils de debugging pour identifier et corriger efficacement les erreurs. Réalisation d’audits complets sur les performances, l’accessibilité, les bonnes pratiques et le SEO. Émission de rapports d’intervention détaillés pour documenter les actions entreprises et les résultats obtenus."
+        "text":" Maîtrise d'outils de débogage pour identifier et corriger efficacement les erreurs. Réalisation d’audits complets sur les performances, l’accessibilité, les bonnes pratiques et le SEO. Émission de rapports d’intervention détaillés pour documenter les actions entreprises et les résultats obtenus."
     },
     {
         "id": "2",
@@ -18,7 +18,7 @@
         "name":"agile",
         "title":"INITIÉ AUX METHODES AGILES",
         "image":"assets/images/cards/agile-logo.webp",
-        "text":" Sprints, gestion des priorités via Kanban ou Scrum, et collaboration active avec les parties prenantes pour livrer des projets de qualité dans les délais. Familié avec les outils de gestion de projet en lignes Trello et Notion."
+        "text":" Sprints, gestion des priorités via les méthodes Kanban ou Scrum, et collaboration active avec les parties prenantes pour livrer des projets de qualité dans les délais. Familié avec les outils de gestion de projet en lignes Trello et Notion."
     },
     {
         "id": "4",

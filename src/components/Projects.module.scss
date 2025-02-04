@@ -137,7 +137,7 @@
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-image: url('../assets/images/blur-modal.webp');
+    background-image: url('assets/images/background-projectsmodal.webp');
     background-size: cover;
     background-position: bottom ;
     background-position: fixed;
@@ -157,8 +157,9 @@
         font-size: 0.7em;
       }
     }
-
-
+    .modalTextPurpose{
+      font-weight: 500;
+    }
     @include mixin.md-lt {
       width: 80%;
       padding: 15px;

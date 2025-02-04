@@ -66,7 +66,7 @@ const Projects = () => {
                   }}
                 >
                   <h3 className='rb gradient-title-purple'>{title}</h3>
-                  <p>{purpose}</p>
+                  <p className={styles.modalTextPurpose}>{purpose}</p>
                   <p> {techdescription}</p>
                   {links.map((link, index) => (
                     <a

@@ -18,9 +18,9 @@ function PresentationPage () {
             <section className={`${styles.introSection} section d-flex flex-column justify-content-sb align-items-center wrap`}>
             <h1 className='gradient-title-blue-center'>PRESENTATION</h1>
                 <article className='article  all-center'>
-                    <p className='text-shadow-outline' > Retrouvez ici l&apos;ensemble des mes compétences et mon parcours professionnel.
+                    <p className='text-shadow-outline' > Retrouvez sur cette page l&apos;ensemble des mes compétences ainsi que mon parcours professionnel.
                     </p>
-                    <p>Découvrez mes projets ou contactez-moi via le menu.
+                    <p className='text-shadow-outline'> Découvrez mes projets ou contactez-moi via le menu.
                     </p>
                 </article>
                 <div className='arrowsContainer' onClick={scrollToSection}>
@@ -60,7 +60,7 @@ function PresentationPage () {
                     </ul>
                 </div>
             </section>
-            <h1 className='gradient-title-orange-big mb-5'>FORMATION <br /> & <br />EXPERIENCE PROFESSIONNELLE</h1>
+            <h1 className={`${styles.formationTitle} ${styles.formationTitle} gradient-title-orange-big  mb-5`}>FORMATION <br /> & <br />EXPERIENCE PROFESSIONNELLE</h1>
             <section className={`${styles.formationSection} d-flex flex-column all-center gap-100`}>
                 <div className={`${styles.formationLogosLegend} d-flex flex-row `}>
                     <img className='orange-model' src={EducationLogo} alt='education-logo'/>
@@ -89,7 +89,8 @@ function PresentationPage () {
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                             <h4>Certification Professionnelle de Développeur web</h4>
-                            <p>Open ClassRooms</p>
+                            <p>Open ClassRooms | RNCP - Niveau 5 (BAC +2)</p>
+                            <p></p>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>
@@ -98,7 +99,7 @@ function PresentationPage () {
                     <p>Obtention Juil. 2024</p>
 
                     </div>
-                    <div className={styles.timelineEmptyRight}>
+                    <div className={'${styles.timelineEmptyRight} d-flex flex-column justify-content-sb align-items-end'}>
                     <p>Sept. 2023</p>
                     <p>Sept. 2015</p>
                     </div>
@@ -112,7 +113,7 @@ function PresentationPage () {
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                         <h4>Titre Professionnnel de Manager < br/>  d&apos; Univers Marchand</h4>
-                        <p>RNCP - Niveau 5 (BAC +2)</p>
+                        <p>AFPA | RNCP - Niveau 5 (BAC +2)</p>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>

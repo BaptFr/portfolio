@@ -23,11 +23,11 @@
         ],
         "imagemodal": "assets/images/intro-image.webp",
         "purpose": "Site de partage de recettes en ligne.",
-        "techdescription": "avec fonctionnalités avancées de React et de style en SCSS (wichlist, panel Admin, authentification...) La 2nd partie de se projet après la mise ne prodtion et son déploiement sera une migration vers TypeScript).",
+        "techdescription": "Developpement avec les fonctionnalités avancées de React et de style en SCSS (wichlist, panel Admin, authentification...).  La seconde partie de ce projet après la mise en production et son déploiement sera une migration vers TypeScript.",
         "links": [
             {
               "url": "https://github.com/BaptFr",
-              "type": "**Projet en cours **  Voir le code des autres projet sur GitHub"
+              "type": " | **Projet en cours ** | Voir le code des autres projets sur GitHub "
             }
         ]
     },
@@ -63,7 +63,7 @@
         "links": [
             {
               "url": "https://github.com/BaptFr/ocr-projet-7.git",
-              "type": "Voir le code Back-End: Repo. GitHub"
+              "type": "Voir le code Back-End : Repo. GitHub"
             }
         ]
     },
@@ -91,7 +91,7 @@
         ],
         "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Site de locations d'appartements entre particuliers permettant l'accès à la description, aux photos et particularités de chaque logement. ",
-        "techdescription": "J’ai développé l'ensemble de l'application pour le front-end, avec React pour obtenir une Single Page Application Initialisée avec CRA, respectant les maquettes Figma fournies, garantissant un rendu fidèle et responsive. Tout le style a été développé en Sass mais aussi des animations CSS pour améliorer l'expérience utilisateur.",
+        "techdescription": "J’ai développé l'ensemble de l'application pour le front-end, avec React pour obtenir une Single Page Application Initialisée avec CRA, respectant les maquettes Figma fournies, garantissant un rendu fidèle et responsive. Tout le style a été développé en Sass mais aussi des animations CSS pour améliorer l'expérience utilisateur lors de la consultation des descriptions de logement.",
         "links": [
             {
               "url": "https://github.com/BaptFr/OCR-Projet-6.git",
@@ -126,7 +126,7 @@
             }
         ],
         "imagemodal": "assets/images/intro-image.webp",
-        "purpose":" Porfolio d'architecte avec une gallerie de ses photos une solutio nde contact direct. ",
+        "purpose":" Porfolio d'architecte avec sa gallerie photos et solution de contact. ",
         "techdescription": "Développement Front-End en JavaScript et CSS selon la maquette Figma, avec récupération dynamique des images via API REST. J'ai aussi implémenter un filtre par catégorie, une page de connexion pour que l'admnistrateur puisse gérer ses projets. J'ai suivi une approche Agile avec un tableau personnel Kanban.",
         "links": [
             {
@@ -163,7 +163,7 @@
         ],
         "imagemodal": "assets/images/intro-image.webp",
         "purpose":"Analyse puis optimisation d'un site d'une photographe suivi d'une documentation.",
-        "techdescription": "Une fois les bugs signalés, j'ai aussi analysé les 4 items d'optimisation : Performance, Accessibilité, Bonnes Pratiques et SEO. Puis à l'aide des divers outils, modifié le code pour le debbugage, amélioré chaque items au dessus de 90% version mobile ou desktop mais aussi , en plus de l'amélioration du SEO, permis un référencement local. Tout au long de ces divers actions, j'ai rédigé le Cahier de Recettes qui permettra aussi un suivi sur le longt terme quelque oit les interventants.",
+        "techdescription": "Une fois les bugs signalés, j'ai aussi analysé les 4 items d'optimisation : Performance, Accessibilité, Bonnes Pratiques et SEO. Puis à l'aide des divers outils, modifié le code pour le débogage, j'ai amélioré chaque items au dessus de 90% version mobile ou desktop mais aussi , en plus de l'amélioration du SEO, permis un référencement local. Tout au long de ces diverses actions, j'ai rédigé le Cahier de Recettes qui permettra aussi un suivi sur le long terme quelque soit les futurs interventants.",
         "links": [
             {
                 "url": "https://nina-carducci.github.io",
@@ -190,7 +190,7 @@
             }
         ],
         "imagemodal": "assets/images/intro-image.webp",
-        "purpose":"Retrouvez une partie du code de mes projets via mon profil GitHub",
+        "purpose":"Retrouvez le code de mes projets publiques via mon profil GitHub",
         "techdescription": "",
         "links": [
             {
