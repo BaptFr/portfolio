@@ -1,5 +1,17 @@
 @use './mixins' as mixin;
 
+/* =========SUMMARY=========
+
+-BUTTONS & LINKS
+-CARDS
+-BACKGROUNDS COLORS MODELS & MODALS
+-IMAGE & BLUR
+-ANIMATIONS
+  --Blink animation (site logo)
+  --Animated arrows for Intro Sections
+
+  =============================*/
+
 .section {
   z-index: 1;
   padding: 22px;
@@ -33,85 +45,7 @@
 }
 
 
-//ANIMATED ARROWS for Intro Sections
-.arrowsContainer {
-  margin: 0px 0px 75px 0px;
-  &:hover{
-    cursor: pointer;
-  }
-}
-.arrow1:first-child, .arrow2:first-child {
-  opacity: 0.4;
-}
-.arrow1:nth-child(2), .arrow2:nth-child(2){
-  opacity: 0.7;
-}
-.arrow1, .arrow2{
-  padding-top: 10px;
-}
-.arrow1:before {
-  content: "";
-  width: 25px;
-  height: 15px;
-  background:var(--blue5);
-  display: inline-block;
-  transform: skewY(45deg);
-}
-.arrow1:after {
-  content: "";
-  width: 25px;
-  height: 15px;
-  background: var(--blue5);
-  display: inline-block;
-  transform: skewY(-45deg);
-}
-
-.arrow2:before {
-  content: "";
-  width: 25px;
-  height: 15px;
-  background:var(--purple1);
-  display: inline-block;
-  transform: skewY(45deg);
-}
-.arrow2:after {
-  content: "";
-  width: 25px;
-  height: 15px;
-  background: var(--purple1);
-  display: inline-block;
-  transform: skewY(-45deg);
-}
-.arrowSliding {
-  animation: slide 4s linear infinite;
-}
-.delay1 {
-  animation-delay: 0s;
-}
-.delay2 {
-  animation-delay: 1s;
-}
-.delay3 {
-  animation-delay: 2s;
-}
-
-@keyframes slide {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  55% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-//BUTTONS & LINKS
+// -BUTTONS & LINKS
 .scrollToTopButton {
   position: fixed;
   opacity: 0;
@@ -226,7 +160,7 @@
 }
 
 
-// CARDS
+// -CARDS
 .cardContainer {
   width: 25%;
   height: 700px;
@@ -338,7 +272,7 @@
   }
 }
 
-// BACKGROUNDS COLORS MODELS & MODALS
+// -BACKGROUNDS COLORS MODELS & MODALS
 .blue-model{
   background-color: var(--secondary);
   box-shadow: var(--box-shadow-blue);
@@ -395,7 +329,7 @@
   }
 }
 
-//IMAGE & BLUR
+// -IMAGE & BLUR
 .background-image-blur{
   width:100%;
   height: auto;
@@ -431,7 +365,100 @@
 }
 
 
+// -ANIMATIONS
 
+// --Blink animation (site logo)
+.blink-animation {
+  animation: blinkEffect 4s infinite;
+}
+@keyframes blinkEffect {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// --Animated arrows for Intro Sections
+.arrowsContainer {
+  margin: 0px 0px 75px 0px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.arrow1:first-child, .arrow2:first-child {
+  opacity: 0.4;
+}
+.arrow1:nth-child(2), .arrow2:nth-child(2){
+  opacity: 0.7;
+}
+.arrow1, .arrow2{
+  padding-top: 10px;
+}
+.arrow1:before {
+  content: "";
+  width: 25px;
+  height: 15px;
+  background:var(--blue5);
+  display: inline-block;
+  transform: skewY(45deg);
+}
+.arrow1:after {
+  content: "";
+  width: 25px;
+  height: 15px;
+  background: var(--blue5);
+  display: inline-block;
+  transform: skewY(-45deg);
+}
+
+.arrow2:before {
+  content: "";
+  width: 25px;
+  height: 15px;
+  background:var(--purple1);
+  display: inline-block;
+  transform: skewY(45deg);
+}
+.arrow2:after {
+  content: "";
+  width: 25px;
+  height: 15px;
+  background: var(--purple1);
+  display: inline-block;
+  transform: skewY(-45deg);
+}
+.arrowSliding {
+  animation: slide 4s linear infinite;
+}
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 1s;
+}
+.delay3 {
+  animation-delay: 2s;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 

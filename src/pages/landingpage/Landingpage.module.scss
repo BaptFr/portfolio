@@ -25,6 +25,23 @@
     }
   }
 }
+
+.logoSite {
+  max-width: 25%;
+  height: auto;
+  @include mixin.lg{
+    max-width: 30%;
+  }
+  @include mixin.md{
+    max-width: 60%;
+  }
+  @include mixin.sm{
+      max-width: 55%;
+    }
+  @include mixin.xs{
+      max-width: 95%;
+    }
+}
 .landingSubtitle {
   margin: 50px;
   font-size: 2em;
@@ -81,8 +98,8 @@
   z-index: 3;
   padding-top: 150px;
   display: block;
-  left: 72%;
-  top: 12%;
+  left: 71%;
+  top: 11%;
   animation: anim 30s linear infinite;
   @include mixin.lg-lt{
     width: 150px;
@@ -106,9 +123,13 @@
   padding-top: 150px;
   display: block;
   left: -10%;
-  top: 0%;
+  top: 5%;
   animation: anim2 20s linear forwards;
   animation-iteration-count: 1;
+  @include mixin.xl {
+    left: -10%;
+    top:8%;
+  }
   @include mixin.lg-lt{
     width: 200px;
   }

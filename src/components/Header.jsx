@@ -1,9 +1,15 @@
 import styles from './Header.module.scss';
 import LogoSite from '/assets/images/logosite-header.webp';
 import { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Header () {
+    //Hidden Header on Landing Page
+    const headerHidden = useLocation();
+    if (location.pathname ==='/portfolio/'){
+        return null;
+    }
+
     const [showImage, setShowImage] = useState(false);
 
     useEffect(() => {
@@ -16,7 +22,7 @@ function Header () {
         <header className={` ${styles.headerContainer} relative d-flex all-center p-15 `}>
             <div className='overlay'>
             </div>
-            <img className={` ${styles.siteLogo} ${styles.blinkAnimation} z-index1`} src={ LogoSite } alt='logo'></img>
+            <img className={` ${styles.siteLogo} blink-animation z-index1`} src={ LogoSite } alt='logo'></img>
             <nav className='z-index2'>
                 <ul className='d-flex all-center gap-15 mr-10'>
                     <NavLink to='presentation' end
