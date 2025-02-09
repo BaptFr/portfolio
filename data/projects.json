@@ -30,8 +30,8 @@
             }
         ],
         "imagemodal": "assets/images/intro-image.webp",
-        "purpose": "Site web de la rédaction d'un futur magazine lié à l'association Their Memory",
-        "techdescription": "L'association a pour but de transmettre l'histoire de la Seconde Guerre mondiale au grand public, à travers l'utilisation notamment de solutions numériques telles que les réseaux sociaux ou la réalité virtuelle.  En tant que bénévole au sein d'une équipe de 7 développeurs nous participons à la création d'un deuxième site pour l'association qui regroupera des articles ainsi que la possibilité d'achat d'un futur magazine. Nous collaborons via les outils de communication de Google et techniquement via GitHub avec notamment un tableau Kanban. En tant que développeur front-end mon principale défi est la découverte de TypeScript et une collaboration full remote",
+        "purpose": "L'association a pour but de transmettre l'histoire de la Seconde Guerre mondiale au grand public, à travers l'utilisation notamment de solutions numériques telles que les réseaux sociaux ou la réalité virtuelle. ",
+        "techdescription": " En tant que développeur Front-End bénévole au sein d'une équipe de 7 développeurs, je participe à la création d'un deuxième site web (In Memoriam) lié à l'association. Il est destiné à l'équipe de rédaction qui y diffusera des actualités et articles mais aussi la promotion de leur futur magazine. Nous collaborons via les outils de communication de Google et techniquement grâce à GitHub avec notamment un tableau Kanban. Mon principal défi sur ce projet est la découverte de TypeScript et une collaboration à distance.",
         "links": [
             {
               "url": "https://www.theirmemory.org",
