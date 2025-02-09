@@ -1,6 +1,46 @@
 [
     {
         "id":"1",
+        "title": "In Memoriam (EN COURS)  ",
+        "image": "assets/images/projects/their-memory.webp",
+        "tech": [
+            {
+                "url": "assets/logos/typescript-logo.webp",
+                "techname": "TypeScript"
+            },
+            {
+                "url": "assets/logos/react-logo.webp",
+                "techname": "React"
+            },
+            {
+                "url": "assets/logos/tailwind-logo.webp",
+                "techname": "Tailwind CSS"
+            },
+            {
+                "url": "assets/logos/nextjs-logo.webp",
+                "techname": "Next.js"
+            },
+            {
+                "url": "assets/logos/vite-logo.webp",
+                "techname": "Vite"
+            },
+            {
+                "url": "assets/logos/github-logo.webp",
+                "techname": "GitHub"
+            }
+        ],
+        "imagemodal": "assets/images/intro-image.webp",
+        "purpose": "Site web de la rédaction d'un futur magazine lié à l'association Their Memory",
+        "techdescription": "L'association a pour but de transmettre l'histoire de la Seconde Guerre mondiale au grand public, à travers l'utilisation notamment de solutions numériques telles que les réseaux sociaux ou la réalité virtuelle.  En tant que bénévole au sein d'une équipe de 7 développeurs nous participons à la création d'un deuxième site pour l'association qui regroupera des articles ainsi que la possibilité d'achat d'un futur magazine. Nous collaborons via les outils de communication de Google et techniquement via GitHub avec notamment un tableau Kanban. En tant que développeur front-end mon principale défi est la découverte de TypeScript et une collaboration full remote",
+        "links": [
+            {
+              "url": "https://www.theirmemory.org",
+              "type": " | **Projet en cours ** | En attendant, vous pouvez consulter le premier site web de l'association "
+            }
+        ]
+    },
+    {
+        "id":"2",
         "title": "Cook Chef (EN COURS)  ",
         "image": "assets/images/projects/cookchef-site.webp",
         "tech": [
@@ -32,7 +72,7 @@
         ]
     },
     {
-        "id":"2",
+        "id":"3",
         "title": "Mon vieu grimoire",
         "image": "assets/images/projects/mvg-site.webp",
         "tech": [
@@ -68,7 +108,7 @@
         ]
     },
     {
-        "id":"3",
+        "id":"4",
         "title": "KASA",
         "image": "assets/images/projects/kasa-site-l.webp",
         "tech": [
@@ -104,7 +144,7 @@
         ]
     },
     {
-        "id":"4",
+        "id":"5",
         "title": "Portfolio Sophie Bluel",
         "image": "assets/images/projects/sophiebluel-site.webp",
         "tech": [
@@ -140,7 +180,7 @@
         ]
     },
     {
-        "id":"5",
+        "id":"6",
         "title": "Photographe Nina Carducci",
         "image": "assets/images/projects/nina-site.webp",
         "tech": [
@@ -176,7 +216,7 @@
         ]
     },
     {
-        "id":"6",
+        "id":"7",
         "title": "Repository GitHub",
         "image": "assets/images/repository-image.webp",
         "tech": [
