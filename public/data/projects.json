@@ -73,7 +73,7 @@
     },
     {
         "id":"3",
-        "title": "Mon vieu grimoire",
+        "title": "Mon vieux grimoire",
         "image": "assets/images/projects/mvg-site.webp",
         "tech": [
             {
@@ -104,6 +104,10 @@
             {
               "url": "https://github.com/BaptFr/ocr-projet-7.git",
               "type": "Voir le code Back-End : Repo. GitHub"
+            },
+            {
+                "url": "https://mon-vieux-grimoire-xggk.onrender.com",
+                "type": "Voir le site"
             }
         ]
     },
