@@ -1,9 +1,7 @@
 
 # 👋 Bienvenue sur mon Portfolio,
 
-
 <h2> 🖥️ Single Page Application responsive développée avec React / React Router / SCSS / Vite. Les données sont récupérées de façon semi-dynamique via des requêtes fetch mais sont stockées localement. </h2>
-
 
 ------------------------------------------------
 
