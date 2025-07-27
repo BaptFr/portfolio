@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.statusMessage {
+    font-weight: bold;
+}
+
 input,
 textarea {
     padding: 10px;
@@ -36,9 +40,11 @@ form button {
     align-items: center;
     z-index: 1000;
     .contactModalContent {
-        background:#ffffff;
         padding: 20px;
         border-radius: 10px;
+        border: var(--border-green);
+        box-shadow: var(--box-shadow-green);
+        background-color: var(--primary);
         @include mixin.sm-lt {
 
             width: 50%;
@@ -47,18 +53,19 @@ form button {
             margin-top: 10px;
             padding: 10px 20px;
             font-size: 15px;
-            background: #007bff;
-            color: white;
+            font-weight: bold;
+            background: #45a049;
+            color: #ffffff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             &:hover{
-                background-color: #0056b3;
+                background-color: #227226;
             }
         }
         p {
-            font-weight: bold;
-            color: #45a049;
+            text-shadow: #45a049;
+            color: #ffffff;
             @include mixin.sm-lt {
                 word-wrap: break-word;
                 overflow-wrap: break-word;

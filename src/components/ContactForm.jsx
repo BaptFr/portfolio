@@ -97,6 +97,12 @@ const ContactForm = () => {
 
   return (
     <div>
+      {/*Statut envoi du message */}
+      {status && 
+        <p className={`gradient-title-blue-center ${styles.statusMessage}`}>
+        {status}
+        </p>
+      }
       <form className= 'd-flex flex-column all-center 'onSubmit={handleSubmit}>
         <div className={styles.linesContainer}>
           <label htmlFor="name">Votre nom</label>
@@ -144,12 +150,13 @@ const ContactForm = () => {
           ></textarea>
           {errors.message && <p style={{ color: 'red' }}>{errors.message}</p>}
         </div>
-        <button className='btn-blue' type="submit">Envoyer</button>
+        <button className='btn-blue' type="submit" disabled={sending}>
+          {sending ? "Envoi en cours ..." : "Envoyer"}
+        </button>
       </form>
-      {status && <p>{status}</p>} {/*Statut message */}
       {showModal && (
         <div className={styles.contactModal}>
-          <div className={styles.contactModalContent}>
+          <div className= {styles.contactModalContent}>
             <p>Votre message a été envoyé avec succès !</p>
             <button onClick={() => setShowModal(false)}>Fermer</button>
           </div>
