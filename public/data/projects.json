@@ -1,7 +1,74 @@
-[
-    {
+[   {
         "id":"1",
-        "title": "In Memoriam (EN COURS)  ",
+        "title": "SentinelPi IoT  ",
+        "image": "assets/images/projects/sentinelpi.webp",
+        "tech": [
+            {
+                "url": "assets/logos/raspberry-logo.webp",
+                "techname": "Raspberry Pi 4"
+            },
+            {
+                "url": "assets/logos/biometrie-logo.webp",
+                "techname": "Biométrie"
+            },
+            {
+                "url": "assets/logos/python-logo.webp",
+                "techname": "Python"
+            },
+            {
+                "url": "assets/logos/fastapi-logo.webp",
+                "techname": "FastAPI"
+            },
+            {
+                "url": "assets/logos/sqlite-logo.webp",
+                "techname": "SQLite"
+            },
+            {
+                "url": "assets/logos/digitalocean-logo.webp",
+                "techname": "Cloud D.Ocean"
+            }
+        ],
+        "imagemodal": "assets/images/intro-image.webp",
+        "purpose": "Solution de contrôle d’accès basée sur un Raspberry Pi et la reconnaissance d’empreintes digitales, permettant l’ouverture sécurisée d’une serrure connectée et la gestion des utilisateurs via une interface web.",
+        "techdescription": "Projet collaboratif réalisé en méthodologie Agile. Développement embarqué avec Python sur Raspberry Pi (gestion biométrique et contrôle matériel), backend en FastAPI avec base de données relationnelle SQLite et authentification sécurisée mais aussi le FrontEnd web en HTML/CSS/JavaScript pour l’administration à distance (gestion des utilisateurs, suivi des accès en temps réel) déployée sur le Cloud..",
+        "links": [
+            {
+              "url": "https://github.com/BaptFr/sentinelPi-IoT",
+              "type": "Voir la présentation et le code du projet"
+            },
+            {
+                "url": "https://drive.google.com/file/d/1O45TUK8ZJpJpfTdv8lTNmULktiQystbF/view?usp=sharing",
+                "type": "VOIR LA VIDÉO FONCTIONNELLE"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "title": "Blackjack",
+        "image": "assets/images/projects/blackjack-site.webp",
+        "tech": [
+            {
+                "url": "assets/logos/python-logo.webp",
+                "techname": "Python"
+            },
+            {
+                "url": "assets/logos/pygame-logo.webp",
+                "techname": "Pygame"
+            }
+        ],
+        "imagemodal": "assets/images/intro-image.webp",
+        "purpose": "Jeu de Blackjack développé en Python permettant de rejouer les parties de casino avec un système de mises virtuelles, basé sur les règles du Blackjack Français.",
+        "techdescription": "Développé avec Python et Pygame en programmation orientée objet, en gérant, les cartes, le joueur et le croupier via des classes. Le projet intègre la logique du Blackjack, la gestion des mises et une interface graphique interactive.",
+        "links": [
+            {
+              "url": "https://github.com/BaptFr/black-jack-python",
+              "type": "Voir le code et/ou jouer au jeu"
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "title": "In Memoriam",
         "image": "assets/images/projects/their-memory.webp",
         "tech": [
             {
@@ -40,39 +107,7 @@
         ]
     },
     {
-        "id":"2",
-        "title": "Cook Chef (EN COURS)  ",
-        "image": "assets/images/projects/cookchef-site.webp",
-        "tech": [
-            {
-                "url": "assets/logos/react-logo.webp",
-                "techname": "React"
-            },
-            {
-                "url": "assets/logos/vite-logo.webp",
-                "techname": "Vite"
-            },
-            {
-                "url": "assets/logos/sass-logo.webp",
-                "techname": "Sass / SCSS"
-            },
-            {
-                "url": "assets/logos/api-logo.webp",
-                "techname": "API REST"
-            }
-        ],
-        "imagemodal": "assets/images/intro-image.webp",
-        "purpose": "Site de partage de recettes en ligne.",
-        "techdescription": "Developpement avec les fonctionnalités avancées de React et de style en SCSS (wichlist, panel Admin, authentification...).  La seconde partie de ce projet après la mise en production et son déploiement sera une migration vers TypeScript.",
-        "links": [
-            {
-              "url": "https://github.com/BaptFr",
-              "type": " | **Projet en cours ** | Voir le code des autres projets sur GitHub "
-            }
-        ]
-    },
-    {
-        "id":"3",
+        "id":"4",
         "title": "Mon vieux grimoire",
         "image": "assets/images/projects/mvg-site.webp",
         "tech": [
@@ -112,7 +147,7 @@
         ]
     },
     {
-        "id":"4",
+        "id":"5",
         "title": "KASA",
         "image": "assets/images/projects/kasa-site-l.webp",
         "tech": [
@@ -148,7 +183,7 @@
         ]
     },
     {
-        "id":"5",
+        "id":"6",
         "title": "Portfolio Sophie Bluel",
         "image": "assets/images/projects/sophiebluel-site.webp",
         "tech": [
@@ -184,7 +219,7 @@
         ]
     },
     {
-        "id":"6",
+        "id":"7",
         "title": "Photographe Nina Carducci",
         "image": "assets/images/projects/nina-site.webp",
         "tech": [
@@ -220,7 +255,7 @@
         ]
     },
     {
-        "id":"7",
+        "id":"8",
         "title": "Repository GitHub",
         "image": "assets/images/repository-image.webp",
         "tech": [

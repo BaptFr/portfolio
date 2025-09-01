@@ -7,6 +7,9 @@ const sections = [
     { title: 'FRONT-END', key: 'frontend' },
     { title: 'BACK-END', key: 'backend', dataKey: 'backend' },
     { title: (
+        <>TESTS &<br /> DEPLOIEMENTS </>),
+         key: 'deploytools', dataKey: 'deploytools' },
+    { title: (
         <>Outils de développement <br /> & contrôle de version</>),
         key: 'devtools', dataKey: 'devtools' },
     { title: (

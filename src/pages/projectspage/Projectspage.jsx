@@ -19,7 +19,7 @@ function Projectspage () {
                     <p className='text-shadow-outline'>Vous trouverez ici une sélection de mes réalisations ou projets en cours.<br />
                     Découvrez différents projets de développement Front-End, Back-End, Full-Stack mais aussi de Debug & Optimisation SEO.<br />
                     <br />
-                    Ce portfolio lui-même est développé avec React et stylisé en SCSS pour une gestion des styles efficace et un design responsive.
+                    Ce portfolio est développé avec React et stylisé en SCSS pour une gestion des styles efficace et un design responsive.
                     </p>
                 </article>
                 <div className='arrowsContainer' onClick={scrollToSection}>
