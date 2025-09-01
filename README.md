@@ -5,7 +5,8 @@
 
 ## Description
 Bienvenue sur mon **Portfolio**, une application web **responsive** développée avec **React**, **Vite** et stylisée en **Sass/SCSS**.  
-Ce projet présente une **sélection de projets**, mes **compétences principales** et inclut un **formulaire de contact** fonctionnel (EmailJS).  
+
+Il présente une **sélection de projets**, mes **compétences principales** et inclut un **formulaire de contact** fonctionnel (EmailJS).  
 Le site est **déployé via GitHub Pages**.
 
 
