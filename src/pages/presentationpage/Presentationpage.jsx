@@ -67,6 +67,19 @@ function PresentationPage () {
                     <img className='purple-model' src={WorkLogo} alt='work-logo'/>
                 </div>
                 <div className={`${styles.timeline}`}>
+                    <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
+                            <h4>Certification Professionnelle de Développeur Full Stack</h4>
+                            <p> RNCP - Niveau 6 (BAC +3) <br/><br/>
+                                IT-Akademy <br/>
+                                Campus Région du Numérique <br/>
+                                </p>
+                    </div>
+                    <div className={styles.timelineMiddle}>
+                    <div className={styles.timelineCircle}></div>
+                    </div>
+                    <div className={styles.timelineEmpty}>
+                        <p>Depuis Avr. 2025</p>
+                    </div>
                     <div className={styles.timelineEmptyRight}>
                         <p>Depuis Déc. 2024</p>
                         <p></p>
@@ -89,8 +102,9 @@ function PresentationPage () {
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                             <h4>Certification Professionnelle de Développeur web</h4>
-                            <p>Open ClassRooms | RNCP - Niveau 5 (BAC +2)</p>
-                            <p></p>
+                            <p>RNCP - Niveau 5 (BAC +2) <br/><br/>
+                            Open ClassRooms
+                            </p>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>
@@ -113,7 +127,10 @@ function PresentationPage () {
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                         <h4>Titre Professionnnel de Manager < br/>  d&apos; Univers Marchand</h4>
-                        <p>AFPA | RNCP - Niveau 5 (BAC +2)</p>
+                        <p>RNCP - Niveau 5 (BAC +2) <br/>
+                        <br/>
+                        AFPA
+                        </p>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>

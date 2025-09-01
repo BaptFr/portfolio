@@ -14,7 +14,7 @@
 .projectCard {
   position: relative;
   width: 30%;
-  height: 600px;
+  height: 650px;
   border-radius: 15px;
   overflow: hidden;
   border: var(--border-purple);
@@ -23,7 +23,7 @@
   &:hover {
     transform: scale(1.03);
     .cardTechsBanner{
-      background-color: #100529de;;
+      background-color: #0c0322f5;
       box-shadow: var(--box-shadow-purple-extend)
     }
     &:active {
@@ -65,22 +65,26 @@
   .cardTechsBanner {
     position: relative;
     width: 78%;
-    height: 35%;
+    height: 33%;
     border-top: none;
     border-radius:0px 0px 10px 10px;
     border-width: 5px 10px 15px 20px;
     border-top: none;
-    background-color: #100529b9;
+    background-color: #100529ea;
     box-shadow: var(--box-shadow-purple);
     @include mixin.lg-lt {
 
       width: 85%;
+      height: 50%;
+
     }
     @include mixin.md-lt {
       height: 35%;
+      height: 50%;
     }
     @include mixin.sm {
       width: 67%;
+      height: 60%;
     }
     @include mixin.xs{
       width: 75%;
@@ -99,7 +103,8 @@
       border-radius: 10px;
     }
     p{
-      margin: 0;
+      height: 15px;
+      margin-top: 5px;
       font-size: 0.4em;
     }
     h3 {
