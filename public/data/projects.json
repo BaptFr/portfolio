@@ -44,7 +44,7 @@
     },
     {
         "id":"2",
-        "title": "Blackjack",
+        "title": "Blackjack Python",
         "image": "assets/images/projects/blackjack-site.webp",
         "tech": [
             {
@@ -213,7 +213,7 @@
               "type": "Voir le code Back-End: Repo. GitHub"
             },
             {
-                "url": "https://sophie-bluel-baptiste.vercel.app",
+                "url": "https://sophie-bluel-portfolio.onrender.com/",
                 "type": "VOIR LE SITE"
             }
         ]
