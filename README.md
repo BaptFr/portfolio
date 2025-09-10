@@ -1,7 +1,17 @@
+ </br>
 
 
+<div align="center">
+ 
+ <a> 
+  
+ ## 👉 [VOIR LE PORTFOLIO](https://baptfr.github.io/portfolio/) 👈​ 
+ <a/>
 
----
+</div>
+
+ </br>
+
 
 ## Description
 Bienvenue sur mon **Portfolio**, une application web **responsive** développée avec **React**, **Vite** et stylisée en **Sass/SCSS**.  
@@ -39,7 +49,3 @@ Le site est **déployé via GitHub Pages**.
 
 ---
 
-## Démo en ligne
-👉 [Portfolio en ligne](https://baptfr.github.io/portfolio/)
-
----
