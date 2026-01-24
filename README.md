@@ -37,11 +37,11 @@ Le site est **déployé via GitHub Pages**.
 
 🖥️ Design responsive adapté ordinateur, tablette et mobile / Responsive design optimized for desktop, tablet, and mobile
 
-✉️ Formulaire de contact intégré via EmailJS /  Contact form integrated via EmailJS
+✉️ Formulaire de contact avec envoi intégré via EmailJS /  Contact form integrated via EmailJS
 
 📂 Sélection de projets à partir de données locales et accès leurs déploiements /Project showcase using local data (JSON)
 
-🚀 Déploiement sur GitHub Pages concernant le Portfolio, ainsi que Vercel et Render selon les projets  /Deployment on GitHub Pages for the portfolio, as well as on Vercel and Render depending on the projects
+🚀 Déploiement sur GitHub Pages concernant le Portfolio, ainsi que Vercel et Render selon les projets full stack /Deployment on GitHub Pages for the portfolio, as well as on Vercel and Render depending on the projects
 
 🔧 Optimisation et debug poussés - scores Lighthouse supérieurs à 90 sur desktop et mobile / Thorough optimization and debugging - Lighthouse scores above 90 on desktop and mobile
 
