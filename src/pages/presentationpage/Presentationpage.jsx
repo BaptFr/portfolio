@@ -72,33 +72,44 @@ function PresentationPage () {
                             <p> RNCP - Niveau 6 (BAC +3) <br/><br/>
                                 IT-Akademy <br/>
                                 Campus Région du Numérique <br/>
-                                </p>
+                            </p>
                     </div>
                     <div className={styles.timelineMiddle}>
                     <div className={styles.timelineCircle}></div>
                     </div>
-                    <div className={styles.timelineEmpty}>
-                        <p>Depuis Avr. 2025</p>
+                    <div className={`{styles.timelineEmpty} `}>
+                         <div className={`${styles.timelineDoubleComponent} ${styles.timelineContent} purple-model`}> 
+                           <h4>Developpeur Front-End React Bénévole</h4>
+                        <p>Association Their Memory</p>
+                        <br/>
+                        <br/>
+                            </div>
+                            
                     </div>
+                    
                     <div className={styles.timelineEmptyRight}>
-                        <p>Depuis Déc. 2024</p>
+                        <p>Depuis Avr. 2025</p>
                         <p></p>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>
-                    </div> <div className={`${styles.timelineComponent} ${styles.timelineContent} purple-model`}>
-                        <h4>Developpeur Front-End React Bénévole</h4>
-                        <p>Association Their Memory</p>
                     </div>
+                    <div className={`${styles.timelineDoubleUpComponent} ${styles.timelineContent} purple-model`}>
+                       <br/>
+                       <br/>
+                    </div>
+                    <div>
                      <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                         <h4>Meta Front-End Developer- Professional Certificate</h4>
                         <p>Meta 9 courses program</p>
+                    </div>
                     </div>
                     <div className={styles.timelineMiddle}>
                         <div className={styles.timelineCircle}></div>
                     </div>
                     <div className={styles.timelineEmpty}>
-                        <p>Obtention Déc. 2024</p>
+                        <div className={styles.timelineCircle}></div>
+                        <p>Depuis Déc. 2024</p>
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
                             <h4>Certification Professionnelle de Développeur web</h4>

@@ -198,6 +198,28 @@
   }
 }
 
+.timelineDoubleComponent {
+  margin: 0px 10px 0px 10px;
+  border-bottom: none;
+  border-radius:  10px 10px 0px 0px;
+  box-shadow: var(--box-shadow-purple-no-bottom);
+  @include mixin.sm-lt{
+    padding: 20px 10px;
+  }
+}
+
+.timelineDoubleUpComponent {
+  margin: 0px 10px 15px 10px;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: var(--box-shadow-purple-no-top);
+  z-index: 4;
+  @include mixin.sm-lt{
+    padding: 20px 10px;
+  }
+}
+
+
 .timelineMiddle {
   position: relative;
   width: 3px;

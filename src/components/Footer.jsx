@@ -9,7 +9,7 @@ function Footer () {
 
     return (
         <footer className= {`${styles.footerContainer}  p-0 p-5`}>
-                <p className={`${styles.footerText} text-center`}>Tous droits reservés  <br/> Baptiste Salazar <br/>© 2025
+                <p className={`${styles.footerText} text-center`}>Tous droits reservés  <br/> Baptiste Salazar <br/>© 2026
                 </p>
         </footer>
     )
