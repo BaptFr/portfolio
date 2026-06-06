@@ -19,7 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.12.0",
+    "react-router-dom": "^7.16.0",
     "swiper": "^12.1.2"
   },
   "devDependencies": {
