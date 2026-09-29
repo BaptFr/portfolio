@@ -17,10 +17,10 @@ function PresentationPage () {
             <ScrollToTopButton targetRef={topSectionRef} />
             <section className={`${styles.introSection} section d-flex flex-column justify-content-sb align-items-center wrap`}>
             <h1 className='gradient-title-blue-center'>PRESENTATION</h1>
-                <article className='article  all-center'>
+                <article className='article all-center'>
                     <p className='text-shadow-outline' > Retrouvez sur cette page l&apos;ensemble des mes compétences ainsi que mon parcours professionnel.
                     </p>
-                    <p className='text-shadow-outline'> Découvrez mes projets ou contactez-moi via le menu.
+                    <p className='text-shadow-outline'> Découvrez mes projets ou contactez-moi via le formulaire disponible depuis le menu.
                     </p>
                 </article>
                 <div className='arrowsContainer' onClick={scrollToSection}>

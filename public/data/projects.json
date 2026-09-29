@@ -90,19 +90,19 @@
             {
                 "url": "assets/logos/vite-logo.webp",
                 "techname": "Vite"
-            },
-            {
-                "url": "assets/logos/github-logo.webp",
-                "techname": "GitHub"
             }
         ],
         "imagemodal": "assets/images/intro-image.webp",
         "purpose": "L'association a pour but de transmettre l'histoire de la Seconde Guerre mondiale au grand public, à travers l'utilisation notamment de solutions numériques telles que les réseaux sociaux ou la réalité virtuelle. ",
-        "techdescription": " En tant que développeur Front-End bénévole au sein d'une équipe de 7 développeurs, je participe à la création d'un deuxième site web (In Memoriam) lié à l'association. Il est destiné à l'équipe de rédaction qui y diffusera des actualités et articles mais aussi la promotion de leur futur magazine. Nous collaborons via les outils de communication de Google et techniquement grâce à GitHub avec notamment un tableau Kanban. Mon principal défi sur ce projet est la découverte de TypeScript et une collaboration à distance.",
+        "techdescription": "En tant que développeur Front-End bénévole au sein d'une équipe de 8 développeurs, je participe à la création d'un deuxième site web (In Memoriam) lié à l'association. Il est destiné à l'équipe de rédaction qui y diffusera des actualités et articles mais aussi la promotion de leur futur magazine. Nous collaborons via les outils de communication de Google et techniquement grâce à GitHub avec notamment un tableau Kanban. Mon principal défi sur ce projet est la découverte de TypeScript et une collaboration à distance.",
         "links": [
             {
+              "url": "https://www.theirmemory.fr/magazine",
+              "type": "Site destiné aux articles et futur magazine"
+            },
+            {
               "url": "https://www.theirmemory.org",
-              "type": " | **Projet en cours ** | En attendant, vous pouvez consulter le premier site web de l'association "
+              "type": "(Site web de l'association)"
             }
         ]
     },
