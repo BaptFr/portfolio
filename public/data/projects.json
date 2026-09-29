@@ -1,5 +1,50 @@
-[   {
+[   
+        {
         "id":"1",
+        "title": "Expensely",
+        "image": "assets/images/projects/expensely-site.webp",
+        "tech": [
+            {
+                "url": "assets/logos/typescript-logo.webp",
+                "techname": "TypeScript"
+            },
+            {
+                "url": "assets/logos/nextjs-logo.webp",
+                "techname": "Next.js"
+            },
+            {
+                "url": "assets/logos/react-logo.webp",
+                "techname": "React"
+            },
+            {
+                "url": "assets/logos/tailwind-logo.webp",
+                "techname": "Tailwind CSS"
+            },
+            {
+                "url": "assets/logos/claude-logo.webp",
+                "techname": "Claude code"
+            },
+            {
+                "url": "assets/logos/git-logo.webp",
+                "techname": "Git worktress"
+            }
+        ],
+        "imagemodal": "assets/images/intro-image.webp",
+        "purpose": "Application de suivi de dépenses (tableau de bord, CRUD, filtres, graphiques, exports multi-formats), 100 % locale et en français/euros, conçue comme terrain d'expérimentation pour piloter efficacement un agent de code IA autonome sur un vrai produit.",
+        "techdescription": "Ce projet avait pour but d'explorer les façons de diriger efficacement un agent de code IA autonome sur un vrai produit, bien au-delà de simplement 'demander du code '. Chaque fonctionnalité teste et valide une méthodologie différente",
+        "links": [
+            {
+              "url": "https://github.com/BaptFr/expense-tracker-ai",
+              "type": "Voir la présentation détaillée des méthodologies et le code du projet"
+            },
+            {
+                "url": "https://baptfr.github.io/expense-tracker-ai/",
+                "type": "VOIR L'APPLICATION"
+            }
+        ]
+    },
+    {
+        "id":"2",
         "title": "SentinelPi IoT  ",
         "image": "assets/images/projects/sentinelpi.webp",
         "tech": [
@@ -43,7 +88,7 @@
         ]
     },
     {
-        "id":"2",
+        "id":"3",
         "title": "Blackjack Python",
         "image": "assets/images/projects/blackjack-site.webp",
         "tech": [
@@ -67,13 +112,17 @@
         ]
     },
     {
-        "id":"3",
+        "id":"4",
         "title": "In Memoriam",
         "image": "assets/images/projects/their-memory.webp",
         "tech": [
             {
                 "url": "assets/logos/typescript-logo.webp",
                 "techname": "TypeScript"
+            },
+            {
+                "url": "assets/logos/nextjs-logo.webp",
+                "techname": "Next.js"
             },
             {
                 "url": "assets/logos/react-logo.webp",
@@ -84,30 +133,26 @@
                 "techname": "Tailwind CSS"
             },
             {
-                "url": "assets/logos/nextjs-logo.webp",
-                "techname": "Next.js"
-            },
-            {
                 "url": "assets/logos/vite-logo.webp",
                 "techname": "Vite"
-            },
-            {
-                "url": "assets/logos/github-logo.webp",
-                "techname": "GitHub"
             }
         ],
         "imagemodal": "assets/images/intro-image.webp",
         "purpose": "L'association a pour but de transmettre l'histoire de la Seconde Guerre mondiale au grand public, à travers l'utilisation notamment de solutions numériques telles que les réseaux sociaux ou la réalité virtuelle. ",
-        "techdescription": " En tant que développeur Front-End bénévole au sein d'une équipe de 7 développeurs, je participe à la création d'un deuxième site web (In Memoriam) lié à l'association. Il est destiné à l'équipe de rédaction qui y diffusera des actualités et articles mais aussi la promotion de leur futur magazine. Nous collaborons via les outils de communication de Google et techniquement grâce à GitHub avec notamment un tableau Kanban. Mon principal défi sur ce projet est la découverte de TypeScript et une collaboration à distance.",
+        "techdescription": "En tant que développeur Front-End bénévole au sein d'une équipe de 8 développeurs, je participe à la création d'un deuxième site web (In Memoriam) lié à l'association. Il est destiné à l'équipe de rédaction qui y diffusera des actualités et articles mais aussi la promotion de leur futur magazine. Nous collaborons via les outils de communication de Google et techniquement grâce à GitHub avec notamment un tableau Kanban. Mon principal défi sur ce projet est la découverte de TypeScript et une collaboration à distance.",
         "links": [
             {
+              "url": "https://www.theirmemory.fr/magazine",
+              "type": "Site destiné aux articles et futur magazine"
+            },
+            {
               "url": "https://www.theirmemory.org",
-              "type": " | **Projet en cours ** | En attendant, vous pouvez consulter le premier site web de l'association "
+              "type": "(Site web de l'association)"
             }
         ]
     },
     {
-        "id":"4",
+        "id":"5",
         "title": "Mon vieux grimoire",
         "image": "assets/images/projects/mvg-site.webp",
         "tech": [
@@ -147,7 +192,7 @@
         ]
     },
     {
-        "id":"5",
+        "id":"6",
         "title": "KASA",
         "image": "assets/images/projects/kasa-site-l.webp",
         "tech": [
@@ -183,7 +228,7 @@
         ]
     },
     {
-        "id":"6",
+        "id":"7",
         "title": "Portfolio Sophie Bluel",
         "image": "assets/images/projects/sophiebluel-site.webp",
         "tech": [
@@ -219,7 +264,7 @@
         ]
     },
     {
-        "id":"7",
+        "id":"8",
         "title": "Photographe Nina Carducci",
         "image": "assets/images/projects/nina-site.webp",
         "tech": [
@@ -255,7 +300,7 @@
         ]
     },
     {
-        "id":"8",
+        "id":"9",
         "title": "Repository GitHub",
         "image": "assets/images/repository-image.webp",
         "tech": [

@@ -51,6 +51,9 @@ const Projects = () => {
               </div>
             ))}
           </div>
+          <div className={styles.cardClickHint}>
+            <button className={styles.moreBtn} type="button">En savoir plus</button>
+          </div>
         </div>
       ))}
 
