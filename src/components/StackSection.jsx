@@ -5,20 +5,14 @@ import styles from './StackSection.module.scss';
 
 const sections = [
     { title: 'FRONT-END', key: 'frontend' },
-    { title: 'BACK-END', key: 'backend', dataKey: 'backend' },
-    { title: (
-        <>TESTS &<br /> DEPLOIEMENTS </>),
-         key: 'deploytools', dataKey: 'deploytools' },
-    { title: (
-        <>Outils de développement <br /> & contrôle de version</>),
-        key: 'devtools', dataKey: 'devtools' },
-    { title: (
-        <>Outils de debug<br /> optimisation & SEO </>),
-         key: 'seotools', dataKey: 'seotools' },
-    { title: (
-        <>Outils de collaboration <br /> & veille</>),
-         key: 'collaborationtools',
-         dataKey: 'collaborationtools' },
+    { title: 'BACK-END', key: 'backend' },
+    { title: 'BDD, ORM & OUTILS', key: 'database' },
+    { title: 'IA : LLM, RAG & ORCHESTRATION', key: 'ai' },
+    { title: "TESTS & VALIDATION", key: 'testing' },
+    { title: 'OUTILS DE DEV & QUALITÉ', key: 'devtools' },
+    { title: 'VERSIONING, DÉPLOIEMENT & MONITORING', key: 'deploytools' },
+    { title: 'DEBUG, PERFORMANCE & SEO', key: 'seotools' },
+    { title: 'COLLABORATION, DESIGN & VEILLE', key: 'collaborationtools' },
 ];
 
 const TechSection = () => {
@@ -50,14 +44,15 @@ const TechSection = () => {
         <div className={`${styles.stackSectionContainer} d-flex flex-row all-center wrap gap-50`}>
             {sections.map(({ title, key }) => (
                 <div key={key} className={`${styles.stackCard} purple-model d-flex flex-column all-center relative z-index1 br-20`}>
-                    <div className={`${styles.stackTitle} d-flex all-center m-0 `}>
+                    <div className={`${styles.stackTitle} ${styles.stackTitleX} d-flex all-center m-0 `}>
                         <h3>{title}</h3>
                     </div>
-                    <div className= {`${styles.techContainer} mt-30`}>
+                    <div className= {`${styles.techContainer} ${styles.techContainerX} mt-30`}>
                         <div className='techBanner '>
                             <LogoBannerDyn
                                 jsonFile="data/stack.json"
                                 sectionKey={key}
+                                direction="horizontal"
                             />
                         </div>
                     </div>

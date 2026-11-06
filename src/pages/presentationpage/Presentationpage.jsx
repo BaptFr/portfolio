@@ -32,12 +32,12 @@ function PresentationPage () {
              {/* SECTION ref for scroll intro */}
              <div className='section-top-ref' ref={topSectionRef}  >
              </div>
-            {/* SECTION STACK  section (code more robust) */}
+            {/*  STACK  SECTION */}
             <section className='section'>
                 <h1 className='gradient-title-purple'> STACK TECHNIQUE</h1>
                 <StackSection />
             </section>
-            {/* COMPETENCES section */}
+            {/* APPRROACH AND SKILLS section */}
             <section className='section'>
             <h1 className='gradient-title-blue-big'>METHODES <br /> & <br />COMPETENCES</h1>
                 <SkillsSection />

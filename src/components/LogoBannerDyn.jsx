@@ -39,7 +39,7 @@ function LogosBannerDyn({ jsonFile, sectionKey, direction = "vertical" }) {
     const slideClass = direction === "vertical" ? styles.slideY : styles.slideX
 
     return (
-        <div className={styles.banner}>
+        <div className={`${styles.banner} ${direction === "horizontal" ? styles.bannerX : ''}`}>
             <div className={slideClass}>
                 {logos.map((logo) => (
                   <div key={logo.id} className='d-flex flex-column all-center'>
