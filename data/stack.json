@@ -64,7 +64,7 @@
         { "id": "48", "name": "Trello", "image": "assets/logos/trello-logo.webp" },
         { "id": "49", "name": "Feedly", "image": "assets/logos/feedly-logo.webp" },
         { "id": "50", "name": "Jira", "image": "assets/logos/jira-logo.webp" },
-        { "id": "51", "name": "Slack", "image": "assets/logos/slacks-logo.webp" }
+        { "id": "51", "name": "Slack", "image": "assets/logos/slack-logo.webp" }
     ],
     "ai": [
         { "id": "52", "name": "LangChain", "image": "assets/logos/langchain-logo.webp" },
