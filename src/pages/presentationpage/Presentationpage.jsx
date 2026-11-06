@@ -108,7 +108,6 @@ function PresentationPage () {
                         <div className={styles.timelineCircle}></div>
                     </div>
                     <div className={styles.timelineEmpty}>
-                        <div className={styles.timelineCircle}></div>
                         <p>Depuis Déc. 2024</p>
                     </div>
                     <div className={`${styles.timelineComponent} ${styles.timelineContent} orange-model`}>
