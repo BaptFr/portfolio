@@ -1,187 +1,78 @@
 {
     "frontend": [
-        {
-            "id": "1",
-            "name":"React",
-            "image":"assets/logos/react-logo.webp"
-        },
-        {
-            "id": "2",
-            "name":"JavaScript",
-            "image":"assets/logos/js-logo.webp"
-        },
-        {
-            "id": "3",
-            "name":"Tailwind",
-            "image":"assets/logos/tailwind-logo.webp"
-        },
-        {
-            "id": "4",
-            "name":"SCSS / Sass",
-            "image":"assets/logos/sass-logo.webp"
-        },
-        {
-            "id": "5",
-            "name":"Pygame",
-            "image":"assets/logos/pygame-logo.webp"
-        },
-        {
-            "id": "6",
-            "name":"CSS",
-            "image":"assets/logos/css-logo.webp"
-        },
-        {
-            "id": "7",
-            "name":"HTML",
-            "image":"assets/logos/html-logo.webp"
-        }
+        { "id": "1", "name": "TypeScript", "image": "assets/logos/typescript-logo.webp" },
+        { "id": "2", "name": "Next.js", "image": "assets/logos/nextjs-logo.webp" },
+        { "id": "3", "name": "React", "image": "assets/logos/react-logo.webp" },
+        { "id": "4", "name": "JavaScript", "image": "assets/logos/js-logo.webp" },
+        { "id": "5", "name": "SCSS / Sass", "image": "assets/logos/sass-logo.webp" },
+        { "id": "6", "name": "CSS", "image": "assets/logos/css-logo.webp" },
+        { "id": "7", "name": "Tailwind", "image": "assets/logos/tailwind-logo.webp" },
+        { "id": "8", "name": "HTML", "image": "assets/logos/html-logo.webp" }
     ],
     "backend": [
-        {
-            "id": "8",
-            "name":"NodeJS",
-            "image":"assets/logos/node-logo.webp"
-        },
-        {
-            "id": "9",
-            "name":"ExpressJS",
-            "image":"assets/logos/express-logo.webp"
-        },
-        {
-            "id": "10",
-            "name":"API REST",
-            "image":"assets/logos/api-logo.webp"
-        },
-        {
-            "id": "11",
-            "name":"MongoDB",
-            "image":"assets/logos/mongo-logo.webp"
-        },
-        {
-            "id": "12",
-            "name":"Python",
-            "image":"assets/logos/python-logo.webp"
-        },
-        {
-            "id": "13",
-            "name":"FastAPI",
-            "image":"assets/logos/fastapi-logo.webp"
-        },
-        {
-            "id": "14",
-            "name":"SQLite",
-            "image":"assets/logos/sqlite-logo.webp"
-        }
+        { "id": "9", "name": "NodeJS", "image": "assets/logos/node-logo.webp" },
+        { "id": "10", "name": "NestJS", "image": "assets/logos/nestjs-logo.webp" },
+        { "id": "11", "name": "ExpressJS", "image": "assets/logos/express-logo.webp" },
+        { "id": "12", "name": "Python", "image": "assets/logos/python-logo.webp" },
+        { "id": "13", "name": "FastAPI", "image": "assets/logos/fastapi-logo.webp" },
+        { "id": "14", "name": "API REST", "image": "assets/logos/api-logo.webp" },
+        { "id": "15", "name": "WebSocket", "image": "assets/logos/websocket-logo.webp" }
     ],
-     "deploytools": [
-        {
-            "id": "15",
-            "name":"Postman",
-            "image":"assets/logos/postman-logo.webp"
-        },
-        {
-            "id": "16",
-            "name":"DBeaver",
-            "image":"assets/logos/dbeaver-logo.webp"
-        },
-        {
-            "id": "17",
-            "name":"Vercel",
-            "image":"assets/logos/vercel-logo.webp"
-        },
-        {    "id": "18",
-            "name":"Render",
-            "image":"assets/logos/render-logo.webp"
-        },
-        {
-            "id": "19",
-            "name":"DigitalOcean cloud",
-            "image":"assets/logos/digitalocean-logo.webp"
-        }
+    "database": [
+        { "id": "16", "name": "PostgreSQL", "image": "assets/logos/postgresql-logo.webp" },
+        { "id": "17", "name": "MariaDB", "image": "assets/logos/mariadb-logo.webp" },
+        { "id": "18", "name": "SQLite", "image": "assets/logos/sqlite-logo.webp" },
+        { "id": "19", "name": "MongoDB", "image": "assets/logos/mongo-logo.webp" },
+        { "id": "20", "name": "MinIO", "image": "assets/logos/minio-logo.webp" },
+        { "id": "21", "name": "Prisma", "image": "assets/logos/prisma-logo.webp" },
+        { "id": "22", "name": "Mongoose", "image": "assets/logos/mongoose-logo.webp" },
+        { "id": "23", "name": "DBeaver", "image": "assets/logos/dbeaver-logo.webp" },
+        { "id": "24", "name": "pgAdmin", "image": "assets/logos/pgadmin-logo.webp" }
+    ],
+    "testing": [
+        { "id": "25", "name": "Jest", "image": "assets/logos/jest-logo.webp" },
+        { "id": "26", "name": "Postman", "image": "assets/logos/postman-logo.webp" },
+        { "id": "27", "name": "Apidog", "image": "assets/logos/apidog-logo.webp" },
+        { "id": "28", "name": "Zod", "image": "assets/logos/zod-logo.webp" }
+    ],
+    "deploytools": [
+        { "id": "29", "name": "Git", "image": "assets/logos/git-logo.webp" },
+        { "id": "30", "name": "GitHub", "image": "assets/logos/github-logo.webp" },
+        { "id": "31", "name": "Docker", "image": "assets/logos/docker-logo.webp" },
+        { "id": "32", "name": "Vercel", "image": "assets/logos/vercel-logo.webp" },
+        { "id": "33", "name": "Render", "image": "assets/logos/render-logo.webp" },
+        { "id": "34", "name": "DigitalOcean cloud", "image": "assets/logos/digitalocean-logo.webp" },
+        { "id": "35", "name": "Prometheus", "image": "assets/logos/prometheus-logo.webp" },
+        { "id": "36", "name": "Grafana", "image": "assets/logos/grafana-logo.webp" }
     ],
     "devtools": [
-        {
-            "id": "20",
-            "name":"Vite",
-            "image":"assets/logos/vite-logo.webp"
-        },
-        {
-            "id": "21",
-            "name":"ESLint",
-            "image":"assets/logos/lint-logo.webp"
-        },
-        {
-            "id": "22",
-            "name":"Prettier",
-            "image":"assets/logos/prettier-logo.webp"
-        },
-        {    "id": "23",
-            "name":"Mongoose",
-            "image":"assets/logos/mongoose-logo.webp"
-        },
-        {
-            "id": "24",
-            "name":"Git",
-            "image":"assets/logos/git-logo.webp"
-        },
-        {
-            "id": "25",
-            "name":"GitHub",
-            "image":"assets/logos/github-logo.webp"
-        }
+        { "id": "37", "name": "Docker", "image": "assets/logos/docker-logo.webp" },
+        { "id": "38", "name": "Vite", "image": "assets/logos/vite-logo.webp" },
+        { "id": "39", "name": "ESLint", "image": "assets/logos/lint-logo.webp" },
+        { "id": "40", "name": "Prettier", "image": "assets/logos/prettier-logo.webp" },
+        { "id": "41", "name": "Chrome DevTools", "image": "assets/logos/devtools-logo.webp" }
     ],
     "seotools": [
-        {
-            "id": "26",
-            "name":"Chrome DevTools",
-            "image":"assets/logos/devtools-logo.webp"
-        },
-        {
-            "id": "27",
-            "name":"Google Lightouse",
-            "image":"assets/logos/lighthouse-logo.webp"
-        },
-        {
-            "id": "28",
-            "name":"Wave ",
-            "image":"assets/logos/wave-logo.webp"
-        },
-        {
-            "id": "29",
-            "name":"Google Search Console ",
-            "image":"assets/logos/googlese-logo.webp"
-        },
-        {
-            "id": "30",
-            "name":"Schema.org",
-            "image":"assets/logos/schema-logo.webp"
-        }
+        { "id": "42", "name": "Google Lighthouse", "image": "assets/logos/lighthouse-logo.webp" },
+        { "id": "43", "name": "Wave", "image": "assets/logos/wave-logo.webp" },
+        { "id": "44", "name": "Google Search Console", "image": "assets/logos/googlese-logo.webp" },
+        { "id": "45", "name": "Schema.org", "image": "assets/logos/schema-logo.webp" }
     ],
     "collaborationtools": [
-        {
-            "id": "31",
-            "name":"Figma",
-            "image":"assets/logos/figma-logo.webp"
-        },
-        {
-            "id": "32",
-            "name":"Notion",
-            "image":"assets/logos/notion-logo.webp"
-        },
-        {
-            "id": "33",
-            "name":"Trello",
-            "image":"assets/logos/trello-logo.webp"
-        },
-        {
-            "id": "34",
-            "name":"Slacks",
-            "image":"assets/logos/slacks-logo.webp"
-        },
-        {
-            "id": "35",
-            "name":"Feedly",
-            "image":"assets/logos/feedly-logo.webp"
-        }
+        { "id": "46", "name": "Figma", "image": "assets/logos/figma-logo.webp" },
+        { "id": "47", "name": "Notion", "image": "assets/logos/notion-logo.webp" },
+        { "id": "48", "name": "Trello", "image": "assets/logos/trello-logo.webp" },
+        { "id": "49", "name": "Feedly", "image": "assets/logos/feedly-logo.webp" },
+        { "id": "50", "name": "Jira", "image": "assets/logos/jira-logo.webp" },
+        { "id": "51", "name": "Slack", "image": "assets/logos/slacks-logo.webp" }
+    ],
+    "ai": [
+        { "id": "52", "name": "LangChain", "image": "assets/logos/langchain-logo.webp" },
+        { "id": "53", "name": "LlamaIndex", "image": "assets/logos/llamaindex-logo.webp" },
+        { "id": "54", "name": "ChromaDB", "image": "assets/logos/chromadb-logo.webp" },
+        { "id": "55", "name": "API Claude", "image": "assets/logos/claude-logo.webp" },
+        { "id": "56", "name": "API Google Gemini", "image": "assets/logos/gemini-logo.webp" },
+        { "id": "57", "name": "API OpenAI", "image": "assets/logos/openai-logo.webp" },
+        { "id": "58", "name": "Gradio", "image": "assets/logos/gradio-logo.webp" }
     ]
 }
